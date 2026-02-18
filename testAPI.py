@@ -1,7 +1,7 @@
 import json
 import requests
 
-API_TOKEN = "e4d38d5463ec243790b82b2a122fe8fdfa658955"  
+API_TOKEN = ""  
 
 # url = "https://clearinghouse.net/api/v2p1/test"
 
@@ -18,6 +18,6 @@ response = requests.get(url, headers=headers)
 print("Status:", response.status_code)
 
 data = response.json()
-print(json.dumps(data, indent=2)[:2000])  # print first chunk
+print(json.dumps(data, indent=2)[:2000])  
 
     
