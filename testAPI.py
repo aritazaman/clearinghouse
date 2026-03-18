@@ -4,6 +4,9 @@ import os
 import time
 from dotenv import load_dotenv
 
+# python3 -m venv .venv
+# source .venv/bin/activate
+
 load_dotenv()
 
 API_TOKEN = os.getenv("API_TOKEN")
