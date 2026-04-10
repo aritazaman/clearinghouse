@@ -7,16 +7,16 @@
     "avg_labels_per_sample": 1.25,
     "max_labels_per_sample": 8,
     "sample_values": [
-      "Texas Civil Rights Project",
-      "ACLU National (all projects)",
-      "Law Office of Lainey Feingold",
-      "Equal Justice Under Law",
-      "Michigan Clinical Law Program",
-      "Earthjustice",
+      "Center for Constitutional Rights (CCR)",
+      "Lambda Legal",
+      "Prisoners' Legal Services of Massachusetts",
       "Florida Justice Institute",
-      "U.S. Dept. of Justice Civil Rights Division",
-      "LatinoJustice PRLDEF",
-      "Planned Parenthood Federation of America"
+      "Lawyers Comm. for Civil Rights Under Law",
+      "ArchCity Defenders",
+      "Columbia Legal Services (formerly Evergreen)",
+      "Abolitionist Law Center",
+      "Public Justice",
+      "MacArthur Justice Center"
     ]
   },
   "available_documents": {
@@ -27,15 +27,15 @@
     "avg_labels_per_sample": 2.77,
     "max_labels_per_sample": 8,
     "sample_values": [
-      "Trial Court Docket",
-      "Injunctive (or Injunctive-like) Relief",
-      "None of the above",
-      "Any published opinion",
-      "Findings Letter/Report",
-      "Non-settlement Outcome",
+      "Complaint (any)",
       "U.S. Supreme Court merits opinion",
+      "Non-settlement Outcome",
+      "Findings Letter/Report",
+      "None of the above",
       "Monetary Relief",
-      "Complaint (any)"
+      "Injunctive (or Injunctive-like) Relief",
+      "Any published opinion",
+      "Trial Court Docket"
     ]
   },
   "case_defendants": {
@@ -46,16 +46,16 @@
     "avg_labels_per_sample": 1.83,
     "max_labels_per_sample": 35,
     "sample_values": [
-      "{'defendant_level': None, 'institution': 'Michigan Civil Rights Commission', 'institution_alt_state': None, 'institution_city': '', 'institution_county': None, 'name': 'Michigan Department of Civil Rights', 'defendant_level_other': '', 'is_active': True}",
-      "{'defendant_level': None, 'institution': '', 'institution_alt_state': None, 'institution_city': 'Basin', 'institution_county': 'Big Horn', 'name': 'Big Horn County Clerk', 'defendant_level_other': '', 'is_active': True}",
-      "{'defendant_level': None, 'institution': None, 'institution_alt_state': None, 'institution_city': '', 'institution_county': None, 'name': 'Health Devices Corporation', 'defendant_level_other': None, 'is_active': True}",
-      "{'defendant_level': None, 'institution': '', 'institution_alt_state': None, 'institution_city': 'Paramus', 'institution_county': None, 'name': 'Bergen Pines County Hospital', 'defendant_level_other': '', 'is_active': True}",
-      "{'defendant_level': None, 'institution': 'New York City Police Department', 'institution_alt_state': None, 'institution_city': '', 'institution_county': None, 'name': 'NYPD Chief of Department', 'defendant_level_other': '', 'is_active': True}",
-      "{'defendant_level': None, 'institution': 'Patton State Hospital', 'institution_alt_state': None, 'institution_city': 'Patton', 'institution_county': 'San Bernardino', 'name': 'Director of Patton State Hospital', 'defendant_level_other': '', 'is_active': True}",
-      "{'defendant_level': None, 'institution': '', 'institution_alt_state': 'California', 'institution_city': 'Ladera Ranch', 'institution_county': None, 'name': 'Russell Taylor', 'defendant_level_other': '', 'is_active': True}",
-      "{'defendant_level': None, 'institution': '', 'institution_alt_state': None, 'institution_city': '', 'institution_county': None, 'name': 'Beaman Automotive', 'defendant_level_other': '', 'is_active': True}",
-      "{'defendant_level': None, 'institution': '', 'institution_alt_state': 'District of Columbia', 'institution_city': '', 'institution_county': None, 'name': 'United States', 'defendant_level_other': '', 'is_active': True}",
-      "{'defendant_level': None, 'institution': '', 'institution_alt_state': None, 'institution_city': '', 'institution_county': None, 'name': 'Commissioner of Health', 'defendant_level_other': '', 'is_active': True}"
+      "{'defendant_level': None, 'institution': '', 'institution_alt_state': '- United States (national) -', 'institution_city': '', 'institution_county': None, 'name': 'National Cancer Institute', 'defendant_level_other': '', 'is_active': True}",
+      "{'defendant_level': None, 'institution': '', 'institution_alt_state': None, 'institution_city': 'Los Angeles, CA', 'institution_county': None, 'name': 'City of Los Angeles', 'defendant_level_other': '', 'is_active': True}",
+      "{'defendant_level': None, 'institution': '', 'institution_alt_state': None, 'institution_city': '', 'institution_county': None, 'name': 'Governor of Iowa', 'defendant_level_other': '', 'is_active': True}",
+      "{'defendant_level': None, 'institution': None, 'institution_alt_state': None, 'institution_city': 'Jackson Lewis', 'institution_county': None, 'name': 'Fountain View Inc.', 'defendant_level_other': None, 'is_active': True}",
+      "{'defendant_level': None, 'institution': '', 'institution_alt_state': None, 'institution_city': '', 'institution_county': 'Gonzales', 'name': 'Gonzalez County, Texas', 'defendant_level_other': '', 'is_active': True}",
+      "{'defendant_level': None, 'institution': None, 'institution_alt_state': None, 'institution_city': 'Woodinville, WA', 'institution_county': None, 'name': 'Global Imaging Systems, Inc.', 'defendant_level_other': None, 'is_active': True}",
+      "{'defendant_level': None, 'institution': None, 'institution_alt_state': None, 'institution_city': 'Homestead, FL', 'institution_county': None, 'name': \"BJ's Wholesale Club\", 'defendant_level_other': None, 'is_active': True}",
+      "{'defendant_level': None, 'institution': 'Supervisor of Elections', 'institution_alt_state': None, 'institution_city': '', 'institution_county': 'Palm Beach', 'name': 'Palm Beach County', 'defendant_level_other': '', 'is_active': True}",
+      "{'defendant_level': None, 'institution': '', 'institution_alt_state': None, 'institution_city': '', 'institution_county': None, 'name': 'Shelby County Circuit Court', 'defendant_level_other': '', 'is_active': True}",
+      "{'defendant_level': None, 'institution': \"Tennessee Department of Children's Services\", 'institution_alt_state': None, 'institution_city': '', 'institution_county': None, 'name': 'State of Tennessee', 'defendant_level_other': '', 'is_active': True}"
     ]
   },
   "case_dockets_url": {
@@ -66,16 +66,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "https://clearinghouse.net/api/v2p1/cases/44837/dockets/",
-      "https://clearinghouse.net/api/v2p1/cases/17567/dockets/",
-      "https://clearinghouse.net/api/v2p1/cases/11858/dockets/",
-      "https://clearinghouse.net/api/v2p1/cases/45279/dockets/",
-      "https://clearinghouse.net/api/v2p1/cases/46137/dockets/",
-      "https://clearinghouse.net/api/v2p1/cases/45670/dockets/",
-      "https://clearinghouse.net/api/v2p1/cases/9127/dockets/",
-      "https://clearinghouse.net/api/v2p1/cases/6543/dockets/",
-      "https://clearinghouse.net/api/v2p1/cases/5703/dockets/",
-      "https://clearinghouse.net/api/v2p1/cases/8810/dockets/"
+      "https://clearinghouse.net/api/v2p1/cases/43107/dockets/",
+      "https://clearinghouse.net/api/v2p1/cases/16816/dockets/",
+      "https://clearinghouse.net/api/v2p1/cases/176/dockets/",
+      "https://clearinghouse.net/api/v2p1/cases/15641/dockets/",
+      "https://clearinghouse.net/api/v2p1/cases/16248/dockets/",
+      "https://clearinghouse.net/api/v2p1/cases/14983/dockets/",
+      "https://clearinghouse.net/api/v2p1/cases/9367/dockets/",
+      "https://clearinghouse.net/api/v2p1/cases/11076/dockets/",
+      "https://clearinghouse.net/api/v2p1/cases/44219/dockets/",
+      "https://clearinghouse.net/api/v2p1/cases/46649/dockets/"
     ]
   },
   "case_documents_url": {
@@ -86,16 +86,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "https://clearinghouse.net/api/v2p1/cases/8661/documents/",
-      "https://clearinghouse.net/api/v2p1/cases/17374/documents/",
-      "https://clearinghouse.net/api/v2p1/cases/43859/documents/",
-      "https://clearinghouse.net/api/v2p1/cases/771/documents/",
-      "https://clearinghouse.net/api/v2p1/cases/9756/documents/",
-      "https://clearinghouse.net/api/v2p1/cases/45521/documents/",
-      "https://clearinghouse.net/api/v2p1/cases/14634/documents/",
-      "https://clearinghouse.net/api/v2p1/cases/47811/documents/",
-      "https://clearinghouse.net/api/v2p1/cases/46115/documents/",
-      "https://clearinghouse.net/api/v2p1/cases/10113/documents/"
+      "https://clearinghouse.net/api/v2p1/cases/17750/documents/",
+      "https://clearinghouse.net/api/v2p1/cases/44401/documents/",
+      "https://clearinghouse.net/api/v2p1/cases/5783/documents/",
+      "https://clearinghouse.net/api/v2p1/cases/6305/documents/",
+      "https://clearinghouse.net/api/v2p1/cases/46326/documents/",
+      "https://clearinghouse.net/api/v2p1/cases/47410/documents/",
+      "https://clearinghouse.net/api/v2p1/cases/16234/documents/",
+      "https://clearinghouse.net/api/v2p1/cases/11435/documents/",
+      "https://clearinghouse.net/api/v2p1/cases/18424/documents/",
+      "https://clearinghouse.net/api/v2p1/cases/10975/documents/"
     ]
   },
   "case_ongoing": {
@@ -106,11 +106,11 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "Perhaps, but long-dormant",
-      "Unknown",
+      "Yes",
       "No reason to think so",
-      "No",
-      "Yes"
+      "Unknown",
+      "Perhaps, but long-dormant",
+      "No"
     ]
   },
   "case_resources_url": {
@@ -121,16 +121,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "https://clearinghouse.net/api/v2p1/cases/46261/resources/",
-      "https://clearinghouse.net/api/v2p1/cases/15005/resources/",
-      "https://clearinghouse.net/api/v2p1/cases/10213/resources/",
-      "https://clearinghouse.net/api/v2p1/cases/16791/resources/",
-      "https://clearinghouse.net/api/v2p1/cases/10704/resources/",
-      "https://clearinghouse.net/api/v2p1/cases/8229/resources/",
-      "https://clearinghouse.net/api/v2p1/cases/16581/resources/",
-      "https://clearinghouse.net/api/v2p1/cases/6146/resources/",
-      "https://clearinghouse.net/api/v2p1/cases/12756/resources/",
-      "https://clearinghouse.net/api/v2p1/cases/47291/resources/"
+      "https://clearinghouse.net/api/v2p1/cases/11124/resources/",
+      "https://clearinghouse.net/api/v2p1/cases/6033/resources/",
+      "https://clearinghouse.net/api/v2p1/cases/9023/resources/",
+      "https://clearinghouse.net/api/v2p1/cases/46925/resources/",
+      "https://clearinghouse.net/api/v2p1/cases/16699/resources/",
+      "https://clearinghouse.net/api/v2p1/cases/45822/resources/",
+      "https://clearinghouse.net/api/v2p1/cases/11887/resources/",
+      "https://clearinghouse.net/api/v2p1/cases/6221/resources/",
+      "https://clearinghouse.net/api/v2p1/cases/43636/resources/",
+      "https://clearinghouse.net/api/v2p1/cases/11657/resources/"
     ]
   },
   "case_status": {
@@ -141,8 +141,8 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "In Process (Public)",
       "Coding Complete",
+      "In Process (Public)",
       "Approved"
     ]
   },
@@ -154,16 +154,16 @@
     "avg_labels_per_sample": 1.17,
     "max_labels_per_sample": 6,
     "sample_values": [
-      "Fair Housing/Lending/Insurance",
-      "Labor Rights",
-      "School Desegregation",
-      "Indigent Defense",
-      "Election/Voting Rights",
-      "Policing",
-      "Presidential/Gubernatorial Authority",
+      "Nursing Home Conditions",
+      "Privacy",
       "National Security",
+      "Election/Voting Rights",
+      "Indigent Defense",
+      "Reparations",
+      "Policing",
+      "Fair Housing/Lending/Insurance",
       "Public Benefits/Government Services",
-      "Reparations"
+      "Public Accommodations/ Contracting/ Organizational Discrimination"
     ]
   },
   "cause_other": {
@@ -174,16 +174,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "Violence Against Women Act, 42 U.S.C. \u00a7 2261",
-      "Unfair Competition Law (Cal. \u00a7 17200 et seq.)",
-      "No Child Left Behind Act of 2001, 20 U.S.C. \u00a7 6301 et. seq.",
-      "6th Amendment violation",
-      "42 U.S.C. \u00a7\u00a7 12131",
-      "Urban Mass Transportation Act (UMTA), 49 U.S.C. \u00a7\u00a7 1601 et seq.; Federal Aid Highway Acts, 23 U.S.C. \u00a7\u00a7 101 et seq.; Rehabilitation Act of 1973, 29 U.S.C. \u00a7 794",
-      "Assault and Battery",
-      "Developmental Disabilities Assistance and Bill of Rights Act of 2000 (\u201cDD Act\u201d), 42 U.S.C. \u00a7 15041 et seq",
-      "Family and Medical Leave Act, 29 U.S.C. \u00a7 2601 et seq.",
-      "The Hatch Act of 1939"
+      "fifth and fourteenth amendments",
+      "\u00a7 405 of the Immigration Act of 1990",
+      "California Unruh Civil Rights Act",
+      "Section 201 (b) of the Communications Act of 1934",
+      "Title IV, Civil Rights Act 1964, 42 U.S.C. \u00a7 2000c-6",
+      "Interpleader, 28 U.S.C. \u00a7 1335",
+      "Administrative Procedure Act, 5 U.S.C. \u00a7 702",
+      "Negligent Misrepresentation, Breach of Contract",
+      "42 U.S.C. \u00a7 3789d",
+      "Food Stamp Act of 1964, 07 U.S.C. \u00a7 2011"
     ]
   },
   "causes": {
@@ -194,16 +194,16 @@
     "avg_labels_per_sample": 1.7,
     "max_labels_per_sample": 9,
     "sample_values": [
-      "42 U.S.C. \u00a7 1983",
-      "Clean Water Act (CWA), 33 U.S.C. \u00a7 1319 et seq.",
-      "Illegal Immigration Reform and Immigrant Responsibility Act of 1996 (IIRIRA)",
-      "Federal Tort Claims Act (FTCA), 28 U.S.C. \u00a7 2674",
-      "Juvenile Justice Act, 42 U.S.C. \u00a7 5672",
-      "Administrative Leave Act, 5 U.S.C. \u00a7 6329a",
-      "FOIA (Freedom of Information Act), 5 U.S.C. \u00a7 552",
-      "Clean Air Act, 42 U.S.C. \u00a77401 et seq.",
-      "Uniformed Services Employment and Reemployment Rights Act (USERRA), 38 U.S.C. \u00a7 4301",
-      "Fair Credit Reporting Act, 15 U.S.C. \u00a7 1681 (\"FCRA\")"
+      "Age Discrimination in Employment Act (ADEA), 29 U.S.C. \u00a7\u00a7 621 et seq.",
+      "FISA Title VII targeting order (Sections 702, 703, 704), 50 U.S.C. 1881a, 1881b, 1881c",
+      "Migrant and Seasonal Agricultural Workers Protection Act, 29 U.S.C. \u00a7\u00a7 1801-1871",
+      "False Claims Act, 31 U.S.C. \u00a7 3729",
+      "Administrative Procedure Act, 5 U.S.C. \u00a7\u00a7 551 et seq.",
+      "Voting Rights Act, section 2, 52 U.S.C. \u00a7 10301 (previously 42 U.S.C. \u00a7 1973)",
+      "Federal Campaign Finance law, 2 U.S.C. \u00a7\u00a7 431 et seq.",
+      "Religious Freedom Rest. Act/Religious Land Use and Inst. Persons Act (RFRA/RLUIPA)",
+      "Mandamus, 28 U.S.C. \u00a7 1361",
+      "Civil Rights of Institutionalized Persons Act (CRIPA), 42 U.S.C. \u00a7 1997 et seq."
     ]
   },
   "class_action_granted": {
@@ -214,13 +214,13 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "Not sought",
-      "Unknown",
-      "Withdrawn",
-      "Denied",
-      "Pending",
       "Granted",
-      "Mooted before ruling"
+      "Withdrawn",
+      "Mooted before ruling",
+      "Not sought",
+      "Denied",
+      "Unknown",
+      "Pending"
     ]
   },
   "class_action_sought": {
@@ -231,9 +231,9 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "No",
+      "Unknown",
       "Yes",
-      "Unknown"
+      "No"
     ]
   },
   "clearinghouse_link": {
@@ -244,16 +244,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "clearinghouse.net/case/46105",
-      "clearinghouse.net/case/43937",
-      "clearinghouse.net/case/11609",
-      "clearinghouse.net/case/12021",
-      "clearinghouse.net/case/12533",
-      "clearinghouse.net/case/43718",
-      "clearinghouse.net/case/45391",
-      "clearinghouse.net/case/17094",
-      "clearinghouse.net/case/10514",
-      "clearinghouse.net/case/110"
+      "clearinghouse.net/case/14766",
+      "clearinghouse.net/case/46502",
+      "clearinghouse.net/case/9603",
+      "clearinghouse.net/case/17202",
+      "clearinghouse.net/case/8434",
+      "clearinghouse.net/case/45742",
+      "clearinghouse.net/case/47874",
+      "clearinghouse.net/case/9342",
+      "clearinghouse.net/case/12050",
+      "clearinghouse.net/case/43872"
     ]
   },
   "closing_year": {
@@ -264,16 +264,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "2016",
-      "1993",
+      "1979",
+      "1992",
       "1983",
-      "1968",
-      "1963",
-      "1969",
+      "2016",
+      "2013",
+      "2000",
+      "2012",
       "1978",
-      "2014",
-      "2026",
-      "1986"
+      "1976",
+      "1959"
     ]
   },
   "constitutional_clause": {
@@ -284,16 +284,16 @@
     "avg_labels_per_sample": 2.03,
     "max_labels_per_sample": 9,
     "sample_values": [
+      "{'value': 'Privileges and/or Immunities Clauses'}",
+      "{'value': 'Emoluments Clauses'}",
+      "{'value': 'Freedom of speech/association'}",
+      "{'value': 'Suspension Clause'}",
+      "{'value': 'Unreasonable search and seizure'}",
+      "{'value': 'Right to travel'}",
+      "{'value': 'Seventh Amendment (civil jury)'}",
       "{'value': 'Birthright Citizenship'}",
-      "{'value': 'Commerce Power'}",
-      "{'value': 'Fifteenth Amendment'}",
-      "{'value': 'Due Process: Procedural Due Process'}",
-      "{'value': 'Establishment Clause'}",
-      "{'value': 'Full Faith and Credit'}",
-      "{'value': 'Sixth Amendment (criminal jury, other rights)'}",
-      "{'value': 'Takings'}",
-      "{'value': 'Free Exercise Clause'}",
-      "{'value': 'Self-incrimination'}"
+      "{'value': 'Second Amendment (Right to Bear Arms)'}",
+      "{'value': 'Supremacy Clause'}"
     ]
   },
   "content_of_injunction": {
@@ -304,16 +304,16 @@
     "avg_labels_per_sample": 3.68,
     "max_labels_per_sample": 21,
     "sample_values": [
-      "{'value': 'Student assignment'}",
-      "{'value': 'Develop anti-discrimination policy'}",
-      "{'value': 'Receivership'}",
-      "{'value': 'Utilize objective hiring/promotion criteria'}",
-      "{'value': 'Remedial education'}",
-      "{'value': 'Voter Registration'}",
+      "{'value': 'Required disclosure'}",
+      "{'value': 'Auditing'}",
       "{'value': 'Preliminary relief denied'}",
-      "{'value': 'Reporting'}",
-      "{'value': 'Provide antidiscrimination training'}",
-      "{'value': 'Monitoring'}"
+      "{'value': 'Utilize objective hiring/promotion criteria'}",
+      "{'value': 'Monitoring'}",
+      "{'value': 'Promotion'}",
+      "{'value': 'Implement complaint/dispute resolution process'}",
+      "{'value': 'New Election'}",
+      "{'value': 'Preliminary relief request withdrawn/mooted'}",
+      "{'value': 'Redistricting'}"
     ]
   },
   "court": {
@@ -324,16 +324,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "North Carolina state trial court",
-      "West Virginia state appellate court",
-      "Western District of Louisiana",
-      "U.S. Court of Federal Claims",
-      "Middle District of Georgia",
-      "Middle District of Alabama",
-      "Western District of Kentucky",
-      "District of Maine",
-      "Southern District of Georgia",
-      "Western District of Missouri"
+      "Northern District of Georgia",
+      "Minnesota state trial court",
+      "Eastern District of New York",
+      "Western District of Oklahoma",
+      "Eastern District of Tennessee",
+      "Alabama state supreme court",
+      "Northern District of Alabama",
+      "New York state appellate court",
+      "New Mexico state appellate court",
+      "Eastern District of Wisconsin"
     ]
   },
   "custom_issues": {
@@ -344,16 +344,16 @@
     "avg_labels_per_sample": 1.37,
     "max_labels_per_sample": 11,
     "sample_values": [
-      "Challenges to the courts by the executive",
-      "Inadequate lighting",
-      "training opportunities",
-      "Take care clause",
-      "Human Services",
-      "special education",
-      "Free press",
-      "Vehicle Emissions",
-      "breach of contract",
-      "Mental disability: anxiety"
+      "Settlement/injunction content: prevent wage reduction, limit reduction of service hours.",
+      "crowd control policy",
+      "Fraud",
+      "separation of powers",
+      "mental health treatment",
+      "Constitutionality of the Voting Rights Act",
+      "NYC Taxi & Limousine Commission Rules",
+      "Voluntary depature process",
+      "First Amendment (Establishment Clause)",
+      "hypnotism"
     ]
   },
   "defendant_payment": {
@@ -364,16 +364,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "199000",
-      "$272,000",
-      "93,500,000",
-      "$164,692.67",
-      "84,750",
-      "11,609.00",
-      "$135,000",
-      "23500",
-      "20,145.04",
-      "$104,812"
+      "$2,203,053.32",
+      "147,500",
+      "105000",
+      "$303,333",
+      "$358,394",
+      "407,281.37",
+      "Between $8.5 and 9 millio",
+      "$166,000",
+      "25000",
+      "94,942.11"
     ]
   },
   "defendant_type": {
@@ -384,16 +384,16 @@
     "avg_labels_per_sample": 1.19,
     "max_labels_per_sample": 5,
     "sample_values": [
-      "{'value': 'Corrections'}",
-      "{'value': 'Movie Theater or Other Entertainment facility'}",
-      "{'value': 'Parks'}",
+      "{'value': 'Retailer'}",
+      "{'value': 'Multi-family housing provider'}",
+      "{'value': 'Housing Authority'}",
       "{'value': 'Single family housing provider'}",
       "{'value': 'Restaurant'}",
-      "{'value': 'Housing Authority'}",
-      "{'value': 'College/University'}",
-      "{'value': 'Retailer'}",
+      "{'value': 'Transportation'}",
+      "{'value': 'Law-enforcement'}",
       "{'value': 'Sanitation/Public Works'}",
-      "{'value': 'Multi-family housing provider'}"
+      "{'value': 'Parks'}",
+      "{'value': 'College/University'}"
     ]
   },
   "docket_status": {
@@ -404,8 +404,8 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "Complete as of retrieval date",
       "None",
+      "Complete as of retrieval date",
       "Incomplete"
     ]
   },
@@ -417,9 +417,9 @@
     "avg_labels_per_sample": 1.02,
     "max_labels_per_sample": 3,
     "sample_values": [
-      "{'value': 'Government-run'}",
       "{'value': 'Non-government for-profit'}",
-      "{'value': 'Non-government non-profit'}"
+      "{'value': 'Non-government non-profit'}",
+      "{'value': 'Government-run'}"
     ]
   },
   "filing_date": {
@@ -430,16 +430,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "2019-06-12",
-      "1979-05-14",
-      "2001-02-09",
-      "2020-02-05",
-      "1994-01-21",
-      "2025-02-24",
-      "1971-03-17",
-      "1975-07-08",
-      "1975-10-09",
-      "2023-12-05"
+      "2002-03-22",
+      "2000-09-06",
+      "1969-10-13",
+      "1982-04-01",
+      "2015-06-22",
+      "2017-02-01",
+      "2025-10-14",
+      "2009-03-24",
+      "2022-12-16",
+      "1997-05-06"
     ]
   },
   "filing_year": {
@@ -450,16 +450,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "1969",
-      "1968",
+      "1983",
+      "2012",
       "1978",
-      "2002",
-      "1977",
-      "1967",
-      "2017",
+      "1965",
+      "1963",
       "2008",
-      "1989",
-      "1915"
+      "2017",
+      "2020",
+      "1957",
+      "1969"
     ]
   },
   "id": {
@@ -470,16 +470,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "16991",
-      "10848",
-      "43474",
-      "11457",
-      "9728",
-      "45251",
-      "44069",
-      "16143",
-      "6370",
-      "43786"
+      "6243",
+      "9813",
+      "18609",
+      "11649",
+      "17678",
+      "47670",
+      "45787",
+      "47756",
+      "10768",
+      "45737"
     ]
   },
   "injunction_duration": {
@@ -490,16 +490,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "62",
-      "57",
-      "permenant",
-      "248",
-      "13 months",
-      "Preliminary injunction granted for period of litigation only",
-      "189",
-      "7 days",
-      "Less than 1 month",
-      "24 months"
+      "3 weeks",
+      "31",
+      "22-30",
+      "5 years",
+      "154",
+      "131",
+      "9",
+      "102",
+      "35",
+      "600"
     ]
   },
   "is_active": {
@@ -510,8 +510,8 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "False",
-      "True"
+      "True",
+      "False"
     ]
   },
   "issues": {
@@ -522,16 +522,16 @@
     "avg_labels_per_sample": 5.76,
     "max_labels_per_sample": 42,
     "sample_values": [
-      "Immigration/Border: Local / state enforcement of immigration laws (duplicate)",
-      "Benefits (Source): EMTALA (42 U.S.C. \u00a7 1395dd)",
-      "General/Misc.: Payment for care",
-      "Affected Race(s): Race, unspecified",
-      "Affected National Origin/Ethnicity(s): Israeli",
-      "Discrimination Area: Discharge / Constructive Discharge / Layoff",
-      "General/Misc.: Bathing and hygiene",
-      "Policing: Pepper/OC Spray (policing)",
-      "Immigration/Border: Criminal prosecution",
-      "General/Misc.: International law"
+      "Immigration/Border: Detention - conditions",
+      "Disability and Disability Rights: P&A access authority",
+      "Policing: False arrest",
+      "General/Misc.: Retaliation",
+      "Presidential/Gubernatorial Authority: Appointment Authority",
+      "Death Penalty: Lethal Injection - Staffing (including physician)",
+      "Reproductive rights: Cardiac activity legislation",
+      "Medical/Mental Health Care: Gay/lesbian/transgender",
+      "General/Misc.: Watchlist",
+      "Reproductive rights: Facility requirements"
     ]
   },
   "last_checked_date": {
@@ -542,16 +542,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "2023-06-08T00:00:00-04:00",
-      "2017-07-05T00:00:00-04:00",
-      "2020-09-29T00:00:00-04:00",
-      "2006-06-28T00:00:00-04:00",
-      "2024-01-08T00:00:00-05:00",
-      "2012-06-18T00:00:00-04:00",
-      "2012-06-01T00:00:00-04:00",
-      "2023-12-10T00:00:00-05:00",
-      "2024-12-17T00:00:00-05:00",
-      "2023-10-07T00:00:00-04:00"
+      "2023-10-16T00:00:00-04:00",
+      "2025-02-25T00:00:00-05:00",
+      "2024-04-18T00:00:00-04:00",
+      "2018-02-18T00:00:00-05:00",
+      "2013-10-17T00:00:00-04:00",
+      "2006-04-03T00:00:00-04:00",
+      "2013-02-19T00:00:00-05:00",
+      "2014-06-01T00:00:00-04:00",
+      "2007-05-15T00:00:00-04:00",
+      "2017-10-10T00:00:00-04:00"
     ]
   },
   "name": {
@@ -562,16 +562,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "Voshell v. Spence",
-      "EEOC v. CNA INSURANCE COMPANIES & CONTINENTAL CASUALTY CO",
-      "Anderson v. City of Atlanta",
-      "La Uni\u00f3n Del Pueblo Entero v. Trump",
+      "American Civil Liberties Union of Maine Foundation v. U.S. Department of Homeland Security",
+      "EEOC v. Cleveland Construction",
+      "Brenner v. Scott",
+      "Vogler v. Local 53 of the International Association of Heat and Frost Insulators and Asbestos Workers",
       "Madison v. Sullivan Cnty. Bd. of Educ.",
-      "DOJ Investigation of the City of Villa Rica, Georgia Police Department",
-      "Ohio A. Philip Randolph v. Kasich",
-      "United States v. City of Alma and Bacon County Georgia",
-      "United States v. State of Iowa",
-      "Latinos For Trump v. Sessions"
+      "EEOC v. PJR Enterprises, Inc.",
+      "Black Lives Matter - Los Angeles v. Garcetti",
+      "EEOC v. Asher Investments (d/b/a Bistro A)",
+      "Stewart v. Azar",
+      "U.S. House of Representatives v. Mnuchin"
     ]
   },
   "never_filed": {
@@ -594,16 +594,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "168-32-73",
-      "168-58-12",
-      "171-74-36",
-      "168-71-18",
-      "DJ# 204-67-153",
-      "168-42-27",
-      "168-45-8",
-      "168-19M-38",
-      "CV-08-0722",
-      "71619"
+      "Searched 3/2/18, no find",
+      "168-59N-5",
+      "2024CV30455",
+      "168-79-44",
+      "204-11-309",
+      "168-26-20",
+      "168-18-53",
+      "5:2018cv00919",
+      "168-19M-34",
+      "168-52-30"
     ]
   },
   "non_docket_case_number_type": {
@@ -614,10 +614,10 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "OCR",
       "DJ",
-      "EEOC",
-      "other"
+      "OCR",
+      "other",
+      "EEOC"
     ]
   },
   "non_docket_case_number_type_other": {
@@ -628,16 +628,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "204-17M-472",
-      "197-17-32",
-      "202-82-137",
-      "531-2015-00092X",
-      "204-70-85",
-      "Louisiana State Court",
+      "204-79-366",
+      "USCA",
       "204-64-172",
+      "202-82-137",
       "EPA Complaint Nos.",
-      "Department of Education",
-      "100-A1-7863X"
+      "204-8-265",
+      "531-2015-00092X",
+      "OCR 10126001",
+      "204-70-85",
+      "NLRB"
     ]
   },
   "order_end_year": {
@@ -648,16 +648,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "2016",
-      "1993",
+      "2035",
+      "1979",
+      "1992",
       "1983",
-      "1968",
-      "1963",
-      "2014",
-      "2026",
-      "1986",
-      "1959",
-      "1990"
+      "2016",
+      "2013",
+      "2000",
+      "2012",
+      "1976",
+      "1959"
     ]
   },
   "order_start_year": {
@@ -668,16 +668,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "2016",
-      "1993",
+      "1979",
+      "1992",
       "1983",
-      "1969",
-      "1963",
-      "1968",
+      "2016",
+      "2013",
+      "2000",
+      "2012",
       "1978",
-      "2014",
-      "2026",
-      "1964"
+      "1976",
+      "1959"
     ]
   },
   "permanent_injunction": {
@@ -700,16 +700,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "Nonprofit Organizations with missions relating to voter engagement and registration.",
-      "Plaintiff is the United States",
-      "Every individual who was present at or near the intersection of Centre Avenue and Negley Avenue in the City of Pittsburgh on June 1, 2020 for the purpose of engaging in lawful protest and who was ordered to disperse by the City of Pittsburgh Bureau of Police.",
-      "Two consolidated suits: California Association of Health Facilities, filing alone. Developmental Services Network and the United Cerebral Palsy/Spastic Children's Foundation of Los Angeles and Ventura Counties, filing together.",
-      "Female high school student who plays softball and golf.",
-      "Private Plaintiffs - candidates for election and voters",
-      "All current and former women employees of RT 1) who applied for promotions but were denied; 2) who sought training but were denied; 3) who were salaried and were discriminated against on salary, job title, etc.",
-      "A prospective independent candidate for Maryland\u2019s Seventh Congressional District on the November 2020 general election ballot.",
-      "Private citizens and self-identified civil rights advocates",
-      "52 year-old male inmate of Sing Sing Correctional Facility with Hepatitis C."
+      "Lawful permanent resident incarcerated pending deportation requesting injunction relief against proposed transfer to another facility.",
+      "Several demonstrators associated with the Occupy Oakland movement and the ACLU of Northern California, alleging excessive force by the Oakland Police Department prevented their exercise of free speech.",
+      "The United States Department of Justice in the second Trump Administration.",
+      "The Massachusetts Association of Criminal Defense Lawyers is an association representing more than 1,000 trial and appellate lawyers who are members of the Massachusetts Bar and who devote a substantial part of their practices to criminal defense. The Committee for Public Counsel Services was created by state law to plan, oversee, and coordinate the delivery of indigent criminal legal services.",
+      "Plaintiff was a citizen of the United Stats, who lived in Sierra Vista, Arizona and was duly qualified and registered elector in Cochise County. Plaintiff was an individual with several physical disabilities, including: spinal stenosis (lumbar and cervical spondylosis), rheumatoid arthritis, osteoarthritis, spondylolisthesis of the lumbar region, and degenerative disc disease",
+      "The plaintiffs are recipients or applicants for SNAP benefits in Washington, DC, and Bread for the City, a non-profit that provides SNAP-like assistance to residents of DC.",
+      "Plaintiff is the Federal Bureau of Investigation (FBI).",
+      "The Arizona Libertarian Party and Michael Kielsky (the party\u2019s chairman and a candidate for public office)",
+      "A putative class of diversity lottery visa winners and their family members from countries covered by President Trump's 2017 travel ban executive orders.",
+      "Three residents of Gonzales County, Texas that are registered voters and African-American"
     ]
   },
   "plaintiff_type": {
@@ -720,16 +720,16 @@
     "avg_labels_per_sample": 1.16,
     "max_labels_per_sample": 4,
     "sample_values": [
-      "{'value': 'Non-profit religious organization'}",
-      "{'value': 'EEOC Plaintiff'}",
       "{'value': 'Closely-held (for profit) corporation'}",
-      "{'value': 'U.S. Dept of Justice plaintiff'}",
-      "{'value': 'Public (for-profit) corporation'}",
-      "{'value': 'State Plaintiff'}",
+      "{'value': 'Non-DOJ federal government plaintiff'}",
+      "{'value': 'Non-profit NON-religious organization'}",
       "{'value': 'Private Plaintiff'}",
-      "{'value': 'American Indian Tribe'}",
+      "{'value': 'EEOC Plaintiff'}",
+      "{'value': 'U.S. Dept of Justice plaintiff'}",
       "{'value': 'City/County Plaintiff'}",
-      "{'value': 'Non-profit NON-religious organization'}"
+      "{'value': 'American Indian Tribe'}",
+      "{'value': 'Public (for-profit) corporation'}",
+      "{'value': 'State Plaintiff'}"
     ]
   },
   "prevailing_party": {
@@ -740,10 +740,10 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "Defendant",
       "Unknown",
+      "Plaintiff OR Mixed",
       "None Yet / None",
-      "Plaintiff OR Mixed"
+      "Defendant"
     ]
   },
   "pro_se_status": {
@@ -754,9 +754,9 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "No",
+      "Unknown",
       "Yes",
-      "Unknown"
+      "No"
     ]
   },
   "public_interest_lawyer": {
@@ -767,9 +767,9 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "No",
+      "Unknown",
       "Yes",
-      "Unknown"
+      "No"
     ]
   },
   "related_cases": {
@@ -780,16 +780,16 @@
     "avg_labels_per_sample": 1.93,
     "max_labels_per_sample": 32,
     "sample_values": [
-      "{'id': 43645, 'name': \"DOJ Investigation of Orange County Sheriff's Department\"}",
-      "{'id': 10203, 'name': 'Battle v. D.C.'}",
-      "{'id': 238, 'name': 'Inmates of Bucks County Prison v. Warren'}",
-      "{'id': 46500, 'name': 'Bai v. Kristi Noem, Secretary of Homeland Security'}",
-      "{'id': 5491, 'name': 'Givhan v. Puckett'}",
-      "{'id': 47029, 'name': 'United States v. Enriquez, Jr.'}",
-      "{'id': 44023, 'name': 'Hernandez v. City of New York'}",
-      "{'id': 16965, 'name': 'Cole v. County of Santa Clara'}",
-      "{'id': 45180, 'name': 'Abbate v. Ramsey'}",
-      "{'id': 15318, 'name': 'National Federation of the Blind of California v. Uber Technologies'}"
+      "{'id': 17413, 'name': 'In re Accuracy Concerns Regarding FBI Matters Submitted to the FISC [FISC Docket Misc. 19-02]'}",
+      "{'id': 9954, 'name': 'Streit v. County of Los Angeles'}",
+      "{'id': 415, 'name': 'Williams v. Lesiak'}",
+      "{'id': 7827, 'name': 'EEOC v. GENERAL MOTORS CORPORATION'}",
+      "{'id': 18196, 'name': 'Brown v. Warren'}",
+      "{'id': 15255, 'name': \"DOJ Investigation of Evangeline Parish Sheriff's Office\"}",
+      "{'id': 9816, 'name': 'Dodge v. Orange County'}",
+      "{'id': 12097, 'name': 'Jones v. Gusman'}",
+      "{'id': 47069, 'name': 'American Federation of State, County and Municipal Employees, AFL-CIO v. Trump'}",
+      "{'id': 47110, 'name': 'Beer v. Montgomery County'}"
     ]
   },
   "relief_nature_other": {
@@ -800,16 +800,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "Motion Dismissed",
-      "Civil Sanctions",
-      "City repealed ban on sleeping in public",
-      "Approrpriate Placements were found for the plaintiffs.",
-      "Civil penalty",
-      "Attorney Disqualification",
-      "Motion to disqualify granted",
-      "Undisclosed Settlements",
-      "Priority hiring relief for affected persons",
-      "Relief voluntarily granted by Defendant's"
+      "FISA Order denying authorization for surveillance",
+      "Reduction of Sentence",
+      "Defendants ended their policy",
+      "Order for Defendants Guilderland Democratic Committee and Jacob Crawford shall implement certain reasonable modifications to the Large Pavilion and Tawasentha Park for the caucus.",
+      "Defendant voluntarily provided relief then sought dismissal",
+      "declaration that Idaho's current primary system violates Plaintiffs' First Amendment Rights and declaration that Idaho Code sec. 34-904 is unconstitutional as applied to it.",
+      "$900,000 interest free attorneys fees",
+      "Revised state-wide guidance from the Secretary of State allowing the use of state universities for early voting",
+      "Joint dismissal. No fees or injunctions.",
+      "Document production"
     ]
   },
   "relief_natures": {
@@ -820,16 +820,16 @@
     "avg_labels_per_sample": 1.41,
     "max_labels_per_sample": 5,
     "sample_values": [
-      "Habeas relief",
-      "Declaratory Judgment",
-      "Warrant/Order allowing surveillance",
-      "Unknown",
       "Receivership",
-      "Damages",
-      "None",
-      "Injunction / Injunctive-like Settlement",
+      "Criminal Conviction",
       "Preliminary injunction / Temp. restraining order",
-      "Criminal Conviction"
+      "Attorneys fees",
+      "None",
+      "Unknown",
+      "Document/information produced",
+      "None yet",
+      "Damages",
+      "Habeas relief"
     ]
   },
   "relief_sources": {
@@ -840,10 +840,10 @@
     "avg_labels_per_sample": 1.07,
     "max_labels_per_sample": 3,
     "sample_values": [
-      "Unknown",
-      "None",
       "Litigation",
       "Settlement",
+      "None",
+      "Unknown",
       "None yet"
     ]
   },
@@ -855,11 +855,11 @@
     "avg_labels_per_sample": 1.05,
     "max_labels_per_sample": 3,
     "sample_values": [
-      "Conditional Dismissal",
+      "Confession of Judgment",
       "Court Approved Settlement or Consent Decree",
-      "Private Settlement Agreement",
+      "Conditional Dismissal",
       "Voluntary Dismissal",
-      "Confession of Judgment"
+      "Private Settlement Agreement"
     ]
   },
   "settlement_judgment_date": {
@@ -870,16 +870,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "2003-02-14",
-      "2002-10-21",
-      "1979-05-14",
-      "2020-09-30",
-      "2019-06-12",
-      "2009-03-17",
-      "2025-10-23",
-      "2021-11-19",
-      "2022-10-27",
-      "2020-02-05"
+      "2004-07-29",
+      "2022-01-18",
+      "1998-08-01",
+      "2025-01-13",
+      "2013-12-03",
+      "2019-05-28",
+      "2002-03-22",
+      "2022-09-18",
+      "2000-09-06",
+      "2023-03-06"
     ]
   },
   "settlement_judgment_year": {
@@ -890,16 +890,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "2016",
-      "1993",
+      "1979",
       "1983",
-      "1969",
-      "1963",
+      "2016",
+      "2013",
+      "2000",
+      "1924",
+      "2012",
       "1978",
-      "2014",
-      "2026",
-      "1986",
-      "1964"
+      "2005",
+      "2021"
     ]
   },
   "special_case_type": {
@@ -910,16 +910,16 @@
     "avg_labels_per_sample": 1.02,
     "max_labels_per_sample": 2,
     "sample_values": [
+      "{'value': 'Tribal Court'}",
+      "{'value': 'Warrant or subpoena application (or protection)'}",
+      "{'value': 'Habeas'}",
+      "{'value': 'Three-Judge District Court'}",
+      "{'value': 'Appellate Court is initial court'}",
       "{'value': 'Criminal'}",
       "{'value': 'Out-of-court'}",
-      "{'value': 'Appellate Court is initial court'}",
-      "{'value': 'Habeas'}",
-      "{'value': 'Non-court arbitration/mediation'}",
-      "{'value': 'Three-Judge District Court'}",
       "{'value': 'Sealed or access restricted under F.R.C.P. 5.2'}",
-      "{'value': 'Warrant or subpoena application (or protection)'}",
-      "{'value': 'Multi-District Litigation (MDL)'}",
-      "{'value': 'Tribal Court'}"
+      "{'value': 'Non-court arbitration/mediation'}",
+      "{'value': 'Multi-District Litigation (MDL)'}"
     ]
   },
   "special_collections": {
@@ -930,16 +930,16 @@
     "avg_labels_per_sample": 1.59,
     "max_labels_per_sample": 6,
     "sample_values": [
-      "Trump Administration 1.0 & 2.0 FOIA cases",
+      "Biden Administration American Rescue Plan--minority benefits challenges",
+      "Foreign Intelligence Surveillance Act -- Telephony Metadata",
+      "Strip Search Cases",
+      "Transgender Healthcare Access Cases",
+      "Fines/Fees/Bail Reform (Criminalization of Poverty)",
       "IWPR/Wage Project Consent Decree Study",
-      "Juvenile Parole",
-      "Police Violence Protests",
-      "Private Employment Class Actions",
-      "Foreign Intelligence Surveillance Court",
-      "Flint Water Cases",
-      "Trump Administration 2.0: Reversing Course on Existing Litigation",
-      "Mid-Decade Redistricting Cases",
-      "Foreign Intelligence Surveillance Act\u2014Foreign Targeting (702, 703, 704)"
+      "Hepatitis C",
+      "Trump Administration 1.0 & 2.0 FOIA cases",
+      "Take Care",
+      "Post-PLRA enforceable consent decrees"
     ]
   },
   "state": {
@@ -950,16 +950,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "Nevada",
-      "Idaho",
-      "Maine",
-      "District of Columbia",
       "Michigan",
-      "Louisiana",
-      "Connecticut",
+      "Oklahoma",
+      "Northern Mariana Islands",
+      "Colorado",
+      "Indiana",
+      "Kansas",
+      "Hawaii",
       "Guam",
       "Missouri",
-      "California"
+      "Mississippi"
     ]
   },
   "summary": {
@@ -970,16 +970,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "<p>In December 1998, the Chicago District Office of the EEOC brought this suit against RK Associates in the U.S. District Court for the Northern District of Illinois.  The only document publicly available regarding this case is the docket; therefore, the exact allegations involved are unknown.  After a few status conferences, the parties settled in August 1999 through a consent decree.  </p><p></p>",
-      "<p>On December 6, 2023, Jane Doe, a transgender woman, filed a complaint in the U.S. District Court for the Northern District of Georgia against the Georgia Department of Corrections (&ldquo;GDC&rdquo;) for being denied life-saving gender affirming surgeries. The complaint was also filed against GDC&rsquo;s medical services contractors, including Wellpath and MHM Services, as well as various GDC actors including the commissioner, medical director, and mental health director. The plaintiff was represented by private counsel as well as a non-profit legal organization working to challenge the cruel and inhumane conditions of incarcerated individuals. The case was assigned to Judge Michael L. Brown.&nbsp;</p>\r\n<p>The complaint alleged that GDC&rsquo;s blanket ban on providing gender-affirming surgeries, regardless of medical need, to those in their custody was a violation of the Eighth Amendment. Specifically, the complaint argued that a party that had knowledge of the need for medical care in prison and intentionally refused to provide that care was liable for deliberate indifference. A number of Eighth Amendment claims regarding Doe&rsquo;s solitary confinement and failure to protect Doe from substantial risk by retaining her in a men&rsquo;s facility were also included. Beyond the Eighth Amendment, the complaint also took issue with the denial of medical services as a failure to provide reasonable accommodations to a qualified individual with disabilities under the Americans with Disabilities Act (ADA). Doe suffered multiple mental impairments, including gender dysphoria, anxiety, and depression. And finally, the complaint alleged that the Rehabilitation Act, which prohibits discrimination on the basis of disability in any program or activity receiving federal assistance, requires programs to provide &ldquo;reasonable accommodations&rdquo; to individuals with disabilities. The denial of medical services thus was a violation of the Rehabilitation Act according to the complaint. Jane Doe ultimately sought injunctive relief.&nbsp;</p>\r\n<p>The same day the complaint was filed, Doe filed a motion for a preliminary injunction and an expedited hearing on the matter, which was subsequently granted by the court that day. The motion for preliminary injunction requested that the defendants immediately provide her (1) an evaluation for gender-affirming surgery, (2) adequate hormone replacement therapy, (3) gender-affirming commissary items, and (4) a transfer to a women&rsquo;s prison. Although the preliminary injunction hearing was originally set on December 11, 2023, it was moved to February 12, 2024 due to delays in service of process.&nbsp;</p>\r\n<p>The case garnered the attention of numerous organizations. On January 8, 2024, the U.S. Department of Justice filed a statement of interest with the court to express its interest in supporting the proper and uniform application of the ADA as it relates to gender dysphoria. The ACLU of Georgia also filed an amicus brief in support of the plaintiff that same day.&nbsp;</p>\r\n<p>On January 9, 2024, Doe filed a motion to render interim relief in advance of the preliminary injunction hearing; however, the court denied the motion two days later without prejudice, stating that the plaintiff may refile her motion as one for a temporary restraining order or for separate injunctive relief from the prior preliminary injunction motion.&nbsp;</p>\r\n<p>Following the defendants&rsquo; response to the motion for preliminary injunction, a hearing was held over February 12-13. Jane Doe filed an amended complaint on February 13, amending only the names of defendants. &nbsp;</p>\r\n<p>After the parties admitted numerous exhibits and evidence over the course of the next few months, the court granted in part the plaintiff&rsquo;s request for gender-affirming commissary items but denied the other requests on April 17. However, the court did order the defendants to provide status updates on the plaintiff&rsquo;s surgical consultation. See 730 F. Supp. 3d 1327.&nbsp;</p>\r\n<p>Defendants appealed the preliminary injunction order to the U.S. Court of Appeals for the Eleventh Circuit on April 25 (docket no: 24-11382). The plaintiff filed a motion to dismiss the appeal for lack of appellate jurisdiction on May 23.&nbsp;</p>\r\n<p>At the appellate level, the parties filed their respective briefs over the course of the summer. On September 12, the plaintiff&rsquo;s motion to dismiss was carried with the case, to be decided upon by the panel of judges to whom this case was submitted for a decision on the merits. On September 17, an amicus brief was submitted by a host of legal services and civil rights organizations, including the ACLU of Georgia, Lambda Legal Defense and Education Fund, Southern Poverty Law Center, and the Transgender Law Center and Transinclusive Group. Oral arguments were held on December 12. The appellate case remains ongoing.&nbsp;</p>\r\n<p>At the district court level, the defendants continued to file answers to the plaintiff&rsquo;s amended complaint and motions to dismiss the complaint over the course of the next few months. On July 15, 2024, the plaintiff filed a motion to extend the April 17 preliminary injunction, which was granted by the court that same day. The preliminary injunction was extended until October 20. Defendants were also ordered to provide status updates about the plaintiff&rsquo;s surgical consultations every month.&nbsp;</p>\r\n<p>The district court case then continued on to discovery. On November 15, defendant Wellpath filed a notice of bankruptcy with the district court. As such, the district stayed the motion as to this particular defendant. Plaintiff then filed a temporary restraining order on December 17, compelling defendants to issue a final decision regarding her gender-affirming surgery by a certain date. The court determined that it could not act on the motion for a TRO while the case was stayed as to Wellpath. Accordingly, Doe was told to file a new amended complaint removing Wellpath as a party. As such, the plaintiff filed a second amended complaint removing Wellpath.</p>\r\n<p>Defendants filed a motion to dismiss the second amended complaint in the district court on February 4, 2025. The defendants argued that the plaintiff failed to plausibly allege any Eighth Amendment violations or denial of benefits under the ADA. The motion further claimed that at minimum, all the<br />personal-capacity claims should be dismissed because of qualified immunity. Due to the stay of the case from Wellpath's bankruptcy, the defendants noted that a decision on this motion could wait until the stay was lifted. The district court case, thus, also remains ongoing as of February 2025.&nbsp;</p>",
-      "<p>In 2:00-cv-4497, the EEOC's Newark and Philadelphia offices filed lawsuit against General Motors Corporation (GM) on September 14, 2000 in the District of New Jersey.  In 2:00-cv-4735, the EEOC also filed lawsuit against GM in the District of New Jersey, this time on September 28, 2000.  A private party complainant, Mary Scott, successfully intervened in 00-4497 in December of 2000.  The cases were consolidated for discovery purposes on December 12, 2000.  In 00-4735, GM filed a motion to dismiss the case's class action components, which the court subsequently denied.  The cases were consolidated in full on February 15, 2001, after which GM again (unsuccessfully) moved to dismiss the class action component of the case.  The cases concluded with a consent decree in September 2008.  Only the dockets were available in these cases.</p><p></p>",
-      "<p>In October 2002, the EEOC district office in Philadelphia, Pennsylvania brought this action against O'Brien-Kreitzberg, Inc., a general contracting firm and a subsidiary of the URS Corporation, in the U.S. District Court for the Middle District of Pennsylvania.  The complaint alleged that the defendant violated  the Age Discrimination in Employment Act of 1967 (ADEA) when it refused to hire a job applicant after an interviewer discovered his age.  After the defendant filed its initial answer and while a defense motion for summary judgment was pending, the parties settled and a consent decree was entered in November 2003.  </p><p>In the consent decree, the parties agreed that the defendant would pay the aggrieved party $50,000, refrain from retaliating and discriminating on the basis of age, and post a notice of the suit and stating its commitment to complying with the ADEA.  The terms of the decree ran for one year.</p><p></p>",
-      "<p>The Department of Justice filed this suit against the State of Utah on November 22, 2011, in the U.S. District Court for the District of Utah, Central Division, challenging Utah's recently passed immigration bill, HB 497. It claimed that Sections 3, 10 and 11 of the law were preempted under the Supremacy Clause as an intrusion into the exclusively federal sphere of immigration, and preempted specifically by the Immigration and Nationality Act (INA), 8 U.S.C. &sect;&sect; 1101 et seq., and sought declaratory and injunctive relief.</p>\r\n<p>This case was immediately consolidated on November 28, 2011 with a challenge brought earlier in the month by private plaintiffs, <a href=\"http://www.clearinghouse.net/detail.php?id=12194\" target=\"_blank\" rel=\"noopener\">Utah Coalition of La Raza v. Herbert</a>. See the entry on that case for all subsequent developments.</p>\r\n<p>&nbsp;</p>",
-      "<p>This case is about an alleged violation of equal representation in Congress. &nbsp;</p>\r\n<p>On January 11, 2019, a non-profit organization called &ldquo;Equal Vote America Corp.&rdquo; (EVA) and an individual filed a complaint in federal court in the Southern District of New York. &nbsp;The complaint explained that EVA represented a group of eligible voters and that its mission was educating the public on voting rights and promoting voter participation in the election process.&nbsp; The individual plaintiff was the leader of the organization and also a registered voter in New York.&nbsp; Plaintiffs filed the complaint against all successive classes of Congress since 1911 and named four congressional leaders because they had the power to initiate new legislation and control the legislative process: &nbsp;Speaker of the House of Representatives (the House), Minority Leaders in the House and Senate, and Majority Leader in the Senate. &nbsp;The plaintiffs asked the court to find the statutory method of apportioning House seats under the Apportionment Acts of 1911, 1929, and 1941 (which capped the number of seats at 435 and made the apportionment process self-executing after each 10-year census) to be unconstitutional. &nbsp;In addition to finding the current law unconstitutional, plaintiffs asked the court to hold Congress in contempt if it did not establish a more equitable method of apportionment.&nbsp;</p>\r\n<p>The complaint stated that Congress had collectively failed to update the cap and allocation of seats since 1929 in accordance with the &ldquo;Great Compromise&rdquo; of a bicameral legislature approach agreed upon by the founding fathers and the Constitutional provisions mandating that House seats be allocated proportional to each state&rsquo;s population. &nbsp;Plaintiffs claimed that the significant under-representation in the House had violated the principle of &ldquo;no taxation without representation&rdquo; plus their (1) right to equal representation under the Constitution Article I, &sect; 2; (2) right to vote in presidential elections guaranteed by Article II, &sect; 1; (3) privileges guaranteed by Article IV, &sect; 2; (4) Freedom of Speech guaranteed by the First Amendment; &nbsp;(5) Due Process guaranteed by the Fifth Amendment; (6) Due Process and Equal Protection rights under the Fourteenth Amendment &sect; 1; and (7) right to equal vote under the Fourteenth Amendment &sect; 2. &nbsp;</p>\r\n<p>The complaint explained that based on the current law and the 2010 Census, Wyoming is guaranteed one seat for its population of 563,626, while New York State gets only 27 for its population of 19,378,561, i.e. 717,707 per house seat. If New York had been allocated one seat per 563,626, same as Wyoming, New York should have had 34.4 seats. Therefore, per the complaint, New York residents had been severely under-represented by at least seven seats, or 21%, which was a direct result of the Apportionment Acts. &nbsp;Using 1990, 2000, and 2010 census data and mathematical equations, plaintiffs offered what they claimed to be more appropriate state-by-state representation. &nbsp;Plaintiffs claimed that the requested relief was needed to restore &ldquo;Every American&rsquo;s right to equal representation &hellip; and equal vote in any election.&rdquo; &nbsp;</p>\r\n<p>After several failed attempts, the clerk of the court accepted plaintiffs' first amended complaint on February 11, 2019.&nbsp; Subsequently, on June 7, 2019, defendants moved to dismiss the amended complaint due to lack of subject matter jurisdiction because the Supreme Court has already upheld Congress&rsquo;s chosen method of apportionment against constitutional attack. Defendants also moved to dismiss for lack of standing due to their failure to allege any injury that distinguished them from the vast majority of citizens and a failure to allege that any possible alleged harm was caused by the individual defendants&rsquo; actions, and because the relief sought would not address the harms alleged. &nbsp;The defendants also alleged that plaintiffs&rsquo; claims were barred by sovereign immunity and absolute immunity. The defendants also alleged that the court lacked personal jurisdiction over three of the four individual defendants because the plaintiffs did not allege sufficient contacts by those individuals with the Southern District of New York. &nbsp;</p>\r\n<p>On July 7, 2019, the plaintiffs moved to amend their complaint to add 223 individuals from 40 states who joined the lawsuit as co-plaintiffs by signing an online affidavit.&nbsp;</p>\r\n<p>On September 3, 2019, the trial court judge granted defendants&rsquo; motion to dismiss and denied plaintiffs&rsquo; motion for leave to amend to add new plaintiffs. &nbsp;The judge found that plaintiffs had not suffered an injury in fact that conferred standing to challenge the Apportionment Acts, and that EVA had no protectable interest at all because it does not vote and was not entitled to any representation because the right to vote is a citizen&rsquo;s right to vote. &nbsp;EVA also failed to qualify for associational standing because it failed to identify by name at least one member with standing. &nbsp;The judge went on to explain that even if plaintiffs had passed that threshold, the courts routinely rejected claims based on generalized voter standing because the alleged injuries are not distinct and concrete and are shared with the general voting population. &nbsp;The judge also found that plaintiffs failed to establish a causal nexus between their injuries and defendants&rsquo; conduct and failed to establish the court&rsquo;s ability to redress the plaintiff&rsquo;s alleged injuries. &nbsp;The judge explained that because of the separation of powers, the judiciary could not force the legislature to enact new apportionment laws. &nbsp;In addition, defendants had sovereign and absolute immunity that had not been waived and therefore barred this suit. &nbsp;The judge agreed with defendants that the addition of new plaintiffs was futile and denied with prejudice the plaintiffs&rsquo; motion for leave to amend its complaint. &nbsp;</p>\r\n<p>On September 23, 2019, plaintiffs appealed. &nbsp;On October 28, 2020, the 2nd Circuit issued a summary order without precedential effect. &nbsp;The court affirmed the dismissal but remanded the case to the lower court to amend the judgment dismissing the individual plaintiff&rsquo;s complaint without prejudice.&nbsp; The appellate court agreed with the lower court's decision on lack of standing because there was no legally protected interest that was concrete and particularized; because there was no traceable, direct causation; and because the proposed remedies would not provide the requested relief. &nbsp;The dismissal for lack of standing, however, cannot be dismissed with prejudice&mdash;it must be dismissed without prejudice. &nbsp;When the lower court took no action, the 2nd Circuit issued a mandate to the lower court. Despite the order and mandate, the lower court never amended its judgment to allow the plaintiff to amend his complaint.</p>",
-      "<p>Four lawsuits were filed in the District Court for the Northern District of Florida challenging 2021 Florida Senate Bill 90 (SB 90), an omnibus bill that significantly restricted vote-by-mail in the state. The bill also restricted voter registration activity by third-party organizations. Harriet Tubman Freedom Fighters was the fourth lawsuit filed, following <a href=\"../../../../case/43239/\" target=\"_blank\" rel=\"noopener\"><em>League of Women Voters of Florida Inc. v.</em> <em>Lee</em></a>, <em><a href=\"../../../../case/18123/\" target=\"_blank\" rel=\"noopener\">Florida State Conference of Branches and Youth Units of the NAACP v. Lee</a></em>, and <em><a href=\"../../../../case/44575/\" target=\"_blank\" rel=\"noopener\">Florida Rising Together v. Lee</a></em>.</p>\r\n<p>On June 14, 2021 Harriett Tubman Freedom Fighters and Head Count, represented by the Southern Poverty Law Center, brought a lawsuit against the Secretary of State and the Florida Attorney General. The Amended Complaint, filed one day later, added additional plaintiffs, Paralyzed Veterans of America and two individuals, and defendants County Supervisors of Elections. The lawsuit challenged SB 90 by alleging that the new voter rules unconstitutionally placed restrictions on organizations that help voters to register, cast their ballots, and participate in the democratic process. The complaint further alleged that SB 90 particularly harmed people with disabilities because it restricted who may assist voters in requesting, receiving, and submitting mail assistance. In this case, Plaintiffs claimed that SB 90 violated the Fourteenth Amendment as void for vagueness, the First Amendment of the US Constitution for compelled speech and infringement on free speech and association, and the Voting Rights Act for limiting assistance to voters with disabilities. Plaintiffs requested declaratory and injunctive relief.</p>\r\n<p>On June 17, 2021, Chief Judge Walker granted the Defendant Secretary of State&rsquo;s unopposed motion to consolidate for discovery purposes.</p>\r\n<p>The Secretary of State moved to dismiss the four consolidated cases for failure to state a claim on July 30; the Attorney General separately filed a motion to dismiss on August 19. The Court granted in part and denied in part the motions to dismiss on October 8, 2021. Chief Judge Walker dismissed the Voting Rights Act claim for lack of standing because plaintiffs did not allege that the injuries are traceable to Defendants. The Court declined to dismiss all other counts.</p>\r\n<p>On December 8, Chief Judge Walker consolidated the cases for trial. On December 20, the Court denied the Defendants&rsquo; motions for summary judgement and Plaintiffs&rsquo; motion for partial summary judgment, holding that the remaining claims should be decided on the basis of a complete factual record.</p>\r\n<p>Following bench trial, on March 31, 2022 the Court granted a permanent injunction for the plaintiffs and declared that SB 90 violated the rights of the plaintiffs. Chief Judge Walker found that the law made voting harder and unduly burdened voters with disabilities. The order declared that the challenged provision violated the First Amendment.&nbsp;</p>\r\n<p>Defendants appealed this decision on April 11, 2022. A week later, the Eleventh Circuit granted Defendant Secretary of State&rsquo;s unopposed motion to consolidate the appeals.&nbsp;</p>\r\n<p>On April 27, 2023, Chief Judge William Pryor wrote the opinion of the Court. In relevant part, the Court reversed the judgment that the challenged provisions in SB 90 violated the Voting Rights Act. On September 21, the Eleventh Circuit denied Plaintiffs&rsquo; motion to rehear the case en banc.&nbsp;</p>\r\n<p>Pursuant to the Eleventh Circuit decision, Chief Judge Walker vacated the District Court&rsquo;s March 2022 decision. In this Order, the Court once again dismissed the Voting Rights Act claim for lack of standing and dismissed the other claims as moot because the provision was repealed.&nbsp;</p>\r\n<p>Several months later, on February 22, 2024, Plaintiffs in this case renewed their motion for entitlement to attorneys&rsquo; fees, which was subsequently granted in part and denied in part in on February 5, 2025. The Court determined that Plaintiff was entitled to $232,412.78 in attorneys&rsquo; fees.</p>\r\n<p>Defendants appealed this order on attorneys&rsquo; fees on March 4, 2025 to the Eleventh Circuit. On the same day, Defendant Secretary of State moved to consolidate the appeal with similar appeals in the other consolidated cases.</p>\r\n<p>This case is ongoing as of March 12, 2025.</p>",
-      "<p>This case challenged Executive Order No. 14343, issued by President Donald Trump on August 28, 2025. The order is a follow-up to Executive Order 14251, which excluded numerous agencies and subdivisions (designated as having primary national security functions) from the collective-bargaining protections of the Federal and Foreign Service Labor-Management Relations Statutes (collectively, the FSLMRS). Executive Order 14343 expanded these exclusions to six additional agencies, including the United States Agency for Global Media (USAGM), removing them from labor coverage under the FSLMRS. In connection with EO 14343, on August 29, 2025, USAGM notified the Plaintiffs that it was terminating its collective bargaining agreements (CBAs) with them.&nbsp;Similar cases challenging Executive Orders 14251 and 14343 are collected <a href=\"../../../../search/case/?search=14251&amp;advanced_search=true&amp;special_collection=38877&amp;ordering=best_case_match.\" target=\"_blank\" rel=\"noopener\">here</a>.&nbsp;</p>\r\n<p>On September 19, 2025, American Federation of State, County &amp; Municipal Employees, AFL-CIO (&ldquo;AFSCME&rdquo;) and American Federation of Government Employees, AFL-CIO (&ldquo;AFGE&rdquo;), along with their affiliated local unions, filed this lawsuit in the U.S. District Court for the District of Columbia against President Donald Trump, the USAGM, and Special Advisor to USAGM Kari Lake. Plaintiffs, the designated collective bargaining representatives for USAGM employees, alleged that defendants&rsquo; actions violated the First and Fifth Amendments and were ultra vires. Plaintiffs sought a declaratory judgment, injunctive relief, and attorney&rsquo;s fees. The case was assigned to Judge Paul L. Friedman.&nbsp;</p>\r\n<p>In their complaint, Plaintiffs asserted that EO 14343 (i) was issued in retaliation for their protected speech and petitioning activities, in violation of the First Amendment, and (ii) exceeded the President&rsquo;s authority under 5 U.S.C. &sect; 7103(b). They further asserted that the USAGM&rsquo;s termination of the CBAs pursuant to EO 14343 (i) constituted similar First Amendment retaliation, and (ii) violated the Fifth Amendment by depriving them of constitutionally protected property interests and abrogating property rights in those agreements without due process.&nbsp;</p>\r\n<p>Also on September 19, 2025, Plaintiffs filed a motion for a preliminary injunction seeking to enjoin Defendants from enforcing or otherwise carrying out Sections 1 and 2 of Executive Order 14343 as they pertain to Plaintiffs&rsquo; bargaining units at USAGM and all employees within those units. Defendants were directed to file their motion in opposition by October 31, 2025.&nbsp;</p>\r\n<p>On the same day, Plaintiffs filed a notice of related cases, asserting that their case involved a common issue of fact and arose from the same event or transaction as nine other cases: <a href=\"../../../../case/46275/\" target=\"_blank\" rel=\"noopener\">Widakuswara v. Lake, 1:25-cv-01015 (D.D.C.)</a>; <a href=\"../../../../case/46319/\" target=\"_blank\" rel=\"noopener\">NTEU v. Trump, No. 1:25-cv-00935 (D.D.C.)</a>; <a href=\"../../../../case/46340/\" target=\"_blank\" rel=\"noopener\">AFGE v. Trump, No. 3:25-cv-03070 (N.D. Cal.)</a>; <a href=\"../../../../case/46348/\" target=\"_blank\" rel=\"noopener\">Am. Foreign Serv. Ass&rsquo;n v. Trump, No. 1:25-cv-01030 (D.D.C.)</a>; <a href=\"../../../../case/46571/\" target=\"_blank\" rel=\"noopener\">Fed. Educ. Ass&rsquo;n v. Trump, No. 1:25-cv-01362 (D.D.C.)</a>; <a href=\"../../../../case/46832/\" target=\"_blank\" rel=\"noopener\">AFL-CIO v. Trump, No. 1:25-cv-02445 (D.D.C.)</a>; <a href=\"../../../../case/46855/\" target=\"_blank\" rel=\"noopener\">Nat&rsquo;l Ass&rsquo;n of Agriculture Employees v. Trump, No. 1:25-cv-02657 (D.D.C.)</a>; <a href=\"../../../../case/46896/\" target=\"_blank\" rel=\"noopener\">Nat&rsquo;l Weather Serv. Emps Ass&rsquo;n v. Trump, No. 1:25-CV-02947 (D.D.C.)</a>; and <a href=\"../../../../case/46914/\" target=\"_blank\" rel=\"noopener\">NTEU v. Trump, No. 1:25-cv-02990 (D.D.C.).</a>&nbsp;</p>\r\n<p>On October 7, 2025, the court denied the defendants' objection to the notice of relatedness. Citing its recent decision in <a href=\"../../../../case/46832/\" target=\"_blank\" rel=\"noopener\">Am. Fed&rsquo;n of Labor-Congress of Indus. Orgs. v. Trump, No. 25-02445</a> (WL 2301989), the court found that all cases before it challenging Executive Orders 14251 and 14343 are related, as they (1) raise common factual issues and (2) arise from the same underlying event or transaction. The court concluded that the present case is related to each of the cases listed in the plaintiffs&rsquo; notice of related cases, except that <a href=\"../../../../case/46275/\" target=\"_blank\" rel=\"noopener\">Widakuswara v. Lake, 1:25-cv-01015 (D.D.C.)</a> and <a href=\"../../../../case/46340/\" target=\"_blank\" rel=\"noopener\">AFGE v. Trump (3:25-cv-03070 N.D. Cal.) </a>were not included in the court's order.</p>\r\n<p>The court granted Plaintiffs&rsquo; motion for a preliminary injunction on November 18, 2025, finding that Section 2 of EO 14343 was unlawful as applied to Plaintiffs&rsquo; bargaining units. The court enjoined all defendants, except President Trump, from implementing Section 2 with respect to those units.</p>\r\n<p>On December 5, 2025, the parties submitted a joint status report to the Court informing the Court of appeals pending in <em>NTEU v. Trump</em>, No. 1:25-cv-00935-PLF (D.D.C); <em>AFSA v. Trump</em>, No. 1:25-cv-01030-PLF (D.D.C.); and <em>FEA v. Trump</em>, No. 1:25-cv-1362-PLF (D.D.C.). The parties reported \"awaiting a decision on the pending appeals would provide guidance to the parties for motions for summary judgment in this case and could provide guidance on the appropriate scope of potential discovery, if any.\" Consequently, the parties asked the Court to hold off on requiring them to create a briefing schedule until those appeals are adjudicated. The Court agreed with the parties' reasoning and ordered a stay on this case until resolution of the appeals.</p>\r\n<p>On January 8, 2026, while the district court case was still stayed, Defendants filed an appeal to the United States Court of Appeals for the District of Columbia Circuit over the District Court's order granting Plaintiffs' preliminary injunction. The D.C. Court of Appeals set a briefing schedule requiring the parties to file by late February.</p>\r\n<p>This case is ongoing.&nbsp;</p>",
-      "<p>On April 10, 2013, the U.S. Department of Education, Office for Civil Rights (OCR) received a complaint filed by a university student, which alleged that the Wittenberg University discriminated against her on the basis of sex. Specifically, the complaint alleged that the university failed to respond appropriately, including by conducting a timely investigation, when the student was sexually assaulted by a male student athlete, in violation of Title IX of the Education Amendments of 1972.</p><p>OCR determined that it had jurisdiction and that the complaint was filed timely, and opened an investigation. They investigated two issues: (1) whether the university interfered with or limited the ability of a student to participate in or benefit from the services, activities, or privileges provided by the university by effectively causing, encouraging, accepting, tolerating, or failing to correct a sexually hostile environment of which it had actual or constructive notice; and (2) whether the university failed to adopt grievance procedures that incorporate appropriate due process standards and that provide for the prompt and equitable resolution of student complaints under Title IX. OCR combined this complaint (15-31-2141) with a complaint from 2011 (15-11-2015) for the investigation, since the allegations in both complaints were substantially similar.</p><p>OCR concluded its investigation, summarized in a Letter of Findings dated March 24, 2017. The investigation found that the university violated Title IX. The university failed to indicate that inquiries could be referred to the university's Title IX coordinator or OCR in the university's notification of nondiscrimination. The university also failed to provide a Title IX coordinator during the 2010-2011 school year, and failed to provide notice of its Title IX coordinator from 2010 to March 2017. Additionally, the university failed to comply with Title IX because its grievance procedures only applied to sexual harassment and sexual assault, and not all forms of sex discrimination. The grievance policies also contained conflicting information as to whether they applied to third parties, and expressly allowed for termination of a Title IX proceeding if a party initiated a civil, criminal, or agency proceeding. The university also permitted mediation in matters regarding sexual assault, in violation of Title IX, and failed to provide equitable responses to complaints of sexual assault filed by the two students.</p><p>The university entered into a voluntary Resolution Agreement on March 7, 2017. The university was required to adopt and publish an updated Notice of Nondiscrimination, revise its Title IX policies and grievance procedures and submit them for OCR review, and to publish a policy addressing communication between the university's Title IX coordinator and the university's police department. The university also agreed to provide Title IX training to relevant personnel. The Resolution Agreement required the university to issue letters to both student complainants, explaining the steps the university had taken over the past several years to improve its response to sexual assault allegations. The university was also required to reimburse both students or their families for the cost of counseling up to $2000 each that took place after the date of the incident mentioned in the complaints and up to a year following the Resolution Agreement. </p><p>The university agreed that OCR monitoring would continue until OCR determined that the university had fulfilled the terms of the agreement and was in compliance with Title IX and its implementing regulation.</p>",
-      "<p>On July 9, 2002, the U.S. Department of Justice's Civil Rights Division (\"DOJ\") sent its \"findings letter\" to Iowa's governor, advising him of the results of the November 1999, and April-May 2001, DOJ investigations of conditions and practices at two state-operated centers for developmentally and mentally disabled persons:  the Woodward State Hospital-School (subsequently renamed Woodward Resource Center) (\"Woodward\") in Woodward, Iowa, and the Glenwood State Hospital-School (subsequently renamed Glenwood Resource Center) (\"Glenwood\"), in Glenwood, Iowa.  The investigations occurred under the authority of the Civil Rights of Institutionalized Persons Act (\"CRIPA\"), 42 U.S.C. \u00a7 1997.  DOJ and expert consultants visited the facilities twice, reviewed a wide array of documents there, and conducted interviews with personnel and residents.  The letter commended Woodward and Glenwood staff for providing a high level of cooperation during the investigation, as well as the dedication many showed for resident well-being.  Nevertheless, the investigation found deficiencies in resident care at both facilities, in that certain conditions and services at one or both substantially departed from generally accepted standards of care.  Constitutional and federal statutory rights of residents at the facilities were violated in several respects, according to the DOJ.</p><p>DOJ concluded that deficiencies existed in conditions of resident care and treatment (1) at Woodward (and, to a lesser degree at Glenwood), regarding the use of restraints and restrictive procedures (e.g., over-use of restraints; use of electronic tracking devices at Woodward for staff convenience rather than resident care); (2) at Glenwood, regarding the substandard general medical care provided (e.g., lack of a medical director, a peer review quality assurance tool, a pharmacy and therapeutics committee, or policies and protocols to ensure consistent provision of care; insufficient provision of neurological resources) and, (3) at both centers, in their provision of deficient (a) psychiatric and psychological care (e.g., inadequate psychiatric and psychological assessments and diagnoses; unjustified use of psychotropic medications; poor monitoring of treatment outcomes; defective or non-existent pharmacy and therapeutics oversight; failure to obtain informed consent; inappropriate behavior plan development; non-integrated pharmacological and behavior plans), and (b) community placement programs (neither facility had established protocols ensuring adequate assessments to determine the most integrated setting appropriate for individuals' wants and needs).  Nutrition management, physical and occupational therapy, and protection from harm deficiencies were described in the letter, depending on the facility, as ranging from non-existent to notable, with Woodward also described as lacking in appropriate habilitation services.  Erroneous and incomplete record keeping plagued both facilities, according to the DOJ. The letter provided details of deficiencies for all of these categories.</p><p>Minimally-acceptable remedial measures for each of these categories were outlined in the letter, which concluded by inviting continued further collaboration in implementing the remediation.  The letter provided notice that, absent a resolution of the federal concerns, the DOJ would file a CRIPA lawsuit to compel correction of the identified deficiencies at Woodward and Glenwood.</p><p>On November 18, 2004, in the U.S. District Court for the Southern District of Iowa, DOJ simultaneously filed a CRIPA complaint against Iowa and tendered a settlement agreement between the parties, the latter referencing an attached plan obligating the state to implement remedial measures (believed to be those set out in the findings letter; we do not have a copy of the \"plan,\" so we infer this).  The lawsuit, seeking declaratory and injunctive relief, set out that the state's practices at Woodward and Glenwood violated their patients' Fourteenth Amendment due process rights and their rights under the Americans with Disabilities Act (\"ADA\"), 42 U.S.C \u00a7\u00a7 12101 et seq., and the ADA's implementing regulations, 28 C.F.R. Part 35.  </p><p>The settlement obligated the state to ensure, and to periodically report upon its progress in ensuring, improvements that would bring the facilities up to generally accepted professional standards of care.  The settlement also allowed for the United States to conduct regular compliance reviews, with facility inspections and interviews of staff and residents, and to fully access and review relevant documents. </p><p>The Court (Judge Ronald E. Longstaff) approved the settlement on November 24, 2004.  On December 9, 2004, he issued an unpublished order which administratively closed the case, but retained jurisdiction to enforce his order of November 24th.</p><p>In April 2009, the DOJ filed a notice to update the court on the monitoring activities and changes at the two facilities, and extending the monitoring period another year.  By May 13, 2010, the defendants filed a notice with the court that the consent decrees for both facilities had expired.  The case is now closed.</p><p></p>"
+      "<p>In September 2001, the EEOC's Seattle District Office brought this suit against Sinclair Oil Corporation, d/b/a Sun Valley Company, in the U.S. District Court for the District of Idaho.  The complaint alleged that the defendant violated Title VII of the Civil Rights Act of 1964 by failing to rehire the charging party, a female employee, because she had participated in an internal sexual harassment investigation.  In December 2001, the charging party intervened in the suit.  After a failed motion by the defendants for partial judgment on the pleadings in April 2002, the parties settled in July 2002 through a consent decree.  </p><p>Under the two-year decree, which contained non-discrimination and non-retaliation provisions, the defendant agreed to: maintain its EEO policy and internal Title VII compliance procedures, post an EEOC-provided Title VII compliance notice, provide the charging party with a neutral reference, expunge the charging party's personnel file of all references to discrimination, provide EEOC-approved managerial Title VII training, report to the EEOC at specified intervals, and pay $30,000 to the charging party.  </p><p></p>",
+      "<p>On May 26, 2009, prisoners at the Colorado State Penitentiary (CSP) filed this pro se lawsuit against the Colorado Department of Corrections (CDOC) under 42 U.S.C. \u00a7 1983 for allegedly violating his Eighth and Fourteenth Amendment rights. The main pro se plaintiff had been sentenced to death on May 17, 1996 and automatically incarcerated at CSP, the highest security level prison in the CDOC. He, along with others at the prison, were subject to a CSP policy prohibiting prisoners from any outdoors exercise. The plaintiffs asserted that this policy, specifically that the lack of sunlight, constituted cruel and unusual punishment because it created a substantial risk of harm to his mental and physical health. The plaintiffs sought injunctive and declaratory relief. </p><p>The plaintiff moved for class action certification on May 26, 2009 because he believed his claims were common to all 750 prisoners at the CSP. The court (Judge Zita Weinshienk) denied this motion on July 9, 2009, holding that, because the plaintiff was a pro se litigant, he could not represent other pro se litigants under federal law. She also denied his motion for a preliminary injunction allowing prisoners to exercise outside because plaintiff did not demonstrate that he would suffer irreparable harm if the injunction was denied.  In addition, Judge Weinshienk dismissed some of the pro se plaintiffs and instructed the remaining plaintiffs to file an amended complaint. </p><p>On September 25, 2009, the plaintiffs filed an amended complaint. The defendant responded by filing a motion to dismiss in December of 2009.  In January of 2010, the magistrate judge recommended that the motion to dismiss be granted.  </p><p>On March 10, 2010, the last remaining plaintiff filed a third amended complaint to narrow his claim and the relief sought, and to amend the case caption to name only the executive director of the CDOC. The parties scheduled discovery, and on November 24, 2010, the defendant and plaintiff both moved for summary judgment. </p><p>On Feb 9, 2011 the case was reassigned to Judge William J. Martinez upon his recent appointment on the court. The parties continued to prepare for trial. </p><p>On May 20, 2011, attorneys from the American Civil Liberties Union began representing the plaintiff, and on May 25, 2011, there was a settlement on all claims and the case was administratively closed, presumably because the settlement agreement reserves the right for the plaintiff to come to court to enforce the agreement. </p>",
+      "<p>The Phoenix District Office of the EEOC brought this suit against BCI Coca-Cola Bottling Company of Los Angeles (doing business as Phoenix Coca-Cola Bottling Company) in the U.S. District Court for the District of New Mexico in December 2002. The complaint alleged race discrimination in violation of Title VII of the Civil Rights Act of 1964. The defendant allegedly subjected the complainant to race discrimination through disparate treatment of the complainant in the terms and conditions of his employment and discharging him because he was African American. The district court granted summary judgment for the defendant, which was reversed by the Tenth Circuit Court of Appeals (Equal Employment Opportunity Commission v. BCI Coca-Cola Bottling Company of Los Angeles, 450 F. 3d 476  (10th Cir. 2006)). </p><p>The defendant sought review by the Supreme Court, on the question: \"If an employer with no discriminatory motive fires a subordinate based in part on the influence of another employee with a discriminatory motive, can the employer be held liable for discrimination under Section 703(a) of Title VII of the Civil Rights Act of 1964?\"  The Court granted review in January 2007.  In April 2007, however (prior to any oral argument) the defendant dismissed the case from the Supreme Court.  The matter was therefore reopened in the district court.  There, the parties entered into a consent decree that required the defendant to pay the complainant $250,000; train its employees; post and distribute a notice of employee rights under federal anti-discrimination laws; and submit semiannual reports to the EEOC.</p>",
+      "<p>(This summary is temporary while we research the case further). On December 9, 2025, two parents, the Massapequa Board of Education President, and a Rotterdam-Mohonasen Board of Education member filed a lawsuit challenging the New York Attorney General's guidance to school boards regarding transgender students. The plaintiffs alleged that the guidance, which, among other items, prohibits misgendering students, constitutes a violation of their First Amendment rights. The case is ongoing.&nbsp;</p>",
+      "<p>On November 19, 2013, an African-American school teacher filed this lawsuit in the US District Court for the Western District of Pennsylvania. The plaintiff sued under the Declaratory Judgment Act against a Pittsburgh police officer on the grounds of an unlawful arrest and detainment of the plaintiff. The plaintiff, represented by the ACLU, asked for compensatory and punitive damages, alleging that the officer violated his First, Fourth, and Fourteenth Amendment Rights when the officer detained the plaintiff for 12 hours and pursued false charges against the plaintiff because the plaintiff criticized the officer's unsafe driving. In addition, the plaintiff alleged that the officer violated his First Amendment right to be from retaliation of expressive conduct when the officer placed the plaintiff and another observer in handcuffs when they attempted to record the interaction with the officer. </p><p>The charges that were brought against the plaintiff were dropped and the city of Pittsburgh reached a settlement, acknowledging the improper actions of the officer. <a href=\"http://www.aclupa.org/our-work/legal/legaldocket/henderson-v-gromek/\">According to the ACLU</a>, the settlement included the police acknowledging the public's right to video tape police officers, regular meetings between police and members of the community, and damages awarded to the plaintiff in the amount of $52,500.</p>",
+      "<p>On January 10, 2012, a deaf individual who had been arrested and detained on a number of occasions since 2007 for violating his probation in Denver, CO, filed this complaint in the U.S. District Court for the District of Colorado against the City and County of Denver.  He proceeded under Title II of the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act; represented by attorneys from the Civil Rights Education and Enforcement Center and the Center for Rights of Parents with Disabilities, he asked the court for declaratory and injunctive relief, money damages, and attorney's fees and costs.</p><p>In his complaint, the plaintiff alleged that during his detentions in 2010 and 2011, he was denied access to a sign language interpreter, and had requests for a TTY or video phone rejected or delayed. During these detentions, the plaintiff also alleged he was also not provided with required auxiliary aids and services necessary to ensure effective communication. The plaintiff further alleged that Denver systematically, knowingly, and intentionally discriminated against him and other deaf and hard of hearing individuals, that it was likely that he would suffer discrimination in the future, and that the City had been on notice since at least 2007 its deficiencies in providing effective communication for deaf and hard of hearing detainees. </p><p>On April 26, 2013, the defendants, the City and County of Denver, offered judgment pursuant to Fed. R. Civ. P. 68. in favor of the plaintiff in the amount of $15,000. The judgment would be exclusive of any accrued reasonable costs and attorney fees, and would include any and all liability of the defendants in regards to the transactions or occurrences referenced in the plaintiff's complaint. On May 9, 2013, the plaintiff's acceptance of the offer of judgment was filed with the court; judgment was entered in favor of the plaintiff on May 22, 2013, by the clerk.</p><p>On January 24, 2014, Chief Judge Marcia S. Kreiger determined the reasonable attorney fees and issued an order granting attorney fees and costs to the plaintiff.</p>",
+      "<p>On October 22, 2007, the Prison Legal News (PLN) filed suit against Fulton County and its sheriffs under 42 U.S.C. \u00a7 1983 in the U.S. District Court for the Northern District of Georgia. It challenged the  Fulton County Jail mail policy that barred prisoners' receipt of any and all books, magazines, and newspapers (other than religious publications). PLN claimed that the jail's policy violated the First Amendment and Fourteenth Amendment Due Process, as well as Georgia state law. PLN further claimed that the mail policy had previously been declared unconstitutional in the case <i>Daker v. Barrett</i>, No. 1:00-CV-1065-RWS (N.D. Ga. July 22, 2002). PLN sought declaratory and injunctive relief, barring enforcement of the mail policy. The case was assigned to Judge Charles A. Pannell, Jr.</p><p>Fulton County denied that the mail policy was unconstitutional.  On December 18, 2007, PLN moved for a preliminary injunction to enjoin the continued enforcement of the mail policy.  Two days later, Fulton County Sheriff instituted a modified mail policy and claimed that the case was moot in light of the new policy.</p><p>After hearings on the motion, the court entered a preliminary injunction on February 4, 2008, enjoining enforcement of the old mail policy and requiring that the new mail policy remain in effect. Fulton County was also ordered to notify PLN of any changes made to the new mail policy. Under the new mail policy, the Jail permitted PLN subscriptions to be delivered to imprisoned subscribers.</p><p>On March 25, 2008, PLN filed an amended complaint to reflect the changes brought about by the preliminary injunction. The amended complaint refers to the mail policy originally at issue in the case as the former policy and requests declaratory and injunctive relief in the form of an order requiring the defendants to comply with the new, current policy as amended by the parties in settlement negotiations.</p><p>On September 2, 2008, the defendants filed a motion for summary judgment. The plaintiff filed a cross-motion for partial summary judgment with regard to the individual liability for nominal damages against the defendant sheriff, an agent of the county. On July 13, 2009, the court denied in part and granted in part the defendant\u2019s motion for summary judgment: it granted the motion as to the injunctive and declaratory relief but denied the motion as it relates to damages against the sheriff in his individual capacity. The court denied PLN\u2019s cross-motion for partial summary judgement.</p><p>After what can only be assumed to be settlement negotiations, on November 9, 2009, the court ordered a consent judgment, entering judgment on behalf of the plaintiff and against the defendant in an amont of $30,000. Later that month, PLN filed a motion for costs and fees that the court granted, awarding to the plaintiff $119,759.21. The case is closed.</p><p>On April 26, 2016, pursuant to the 2008 order, the defendant provided notice to the court to a proposed change to the mail policy whereby the prison would only allow post-card mailing in order to curtail the flow on contraband through the mailing system. On June 24, 2016, PLN filed a notice of objection to Fulton County\u2019s unilateral change to the court ordered mail policy. The docket ends in January 2017. We do not know how this issue resolved.</p>",
+      "<p>In 1985, visitors to the Montana State Prison filed a class action lawsuit under 42 U.S.C. &sect; 1983 against the Montana Department of Corrections in the U.S. District Court for the District of Montana.  The plaintiffs, who were represented by the American Civil Liberties Union, alleged that their constitutional rights had been violated when they were required to undergo strip searches before being allowed to visit the prison.  </p><p>Seven months after the initiation of the lawsuit, the parties entered into a settlement agreement, which enumerated several procedures to be followed by the prison authorities in relation to strip searches of visitors.  In 1990, the defendants strip searched two prison visitors in violation of the settlement agreement, and they reached a second agreement with the plaintiffs' attorneys regarding that noncompliance.  The plaintiffs' attorneys asked the court to award them attorneys' fees for their work in this second agreement with the defendants.  </p><p>On February 18, 1992, the U.S. District Court for the District of Montana (Judge Paul Hatfield) granted the plaintiffs their attorneys fees, and ordered the defendants to pay.  Sage v. Risley, 785 F.Supp. 134 (D.Mt. 1992).  We have no further information on the proceedings in this case.</p><p></p>",
+      "<p>In June 2017, in response to a <a href=\"http://www.clearinghouse.net/detail.php?id=16071\" target=\"_blank\" rel=\"noopener\">lawsuit filed</a> by the Electronic Frontier Foundation,&nbsp;the federal government released eighteen previously classified opinions by the Foreign Intelligence Surveillance Court (FISC). One of the opinions declassified involved this case.</p>\r\n<p>Section 702 of the FISA Amendments Act of 2008, 50 U.S.C. &sect; 1881a, permits the Attorney General (AG) and the Director of National Intelligence (DNI) to conduct foreign intelligence surveillance targeting the communications of non-U.S. persons located abroad. The government need not establish probable cause that the target of electronic surveillance is a foreign power or agent of a foreign power, nor must the government specify the nature and location of the facilities or places that surveillance will occur. Communications of U.S. citizens and residents are frequently collected \"incidentally\" if those U.S. persons are communicating with or about a targeted foreigner.</p>\r\n<p>Section 702 requires that the AG, through the Department of Justice (DOJ), and DNI, through the Office of the Director of National Intelligence (ODNI), submit annual &ldquo;certifications&rdquo; that define the categories of foreign actors that may be appropriately targeted. By law, these certifications must include specific targeting and minimization procedures adopted by the AG in consultation with the DNI. These certifications must be approved by the Foreign Intelligence Surveillance Court (FISC) before Section 702 surveillance may be conducted. For a more in-depth overview of the certification process, see <a href=\"https://www.clearinghouse.net/detail.php?id=14411\" target=\"_blank\" rel=\"noopener\">[In re DNI/AG 702(i) Certification 2008]</a>.</p>\r\n<p>In September 2008, the FISC approved the government's certifications for 2008. (Those proceedings are discussed in <a href=\"https://www.clearinghouse.net/detail.php?id=14411\" target=\"_blank\" rel=\"noopener\">[In re DNI/AG 702(i) Certification 2008]</a>.) Later that year, however, the government submitted an \"Ex Parte Statement and Notice of Corrections Concerning DNI/AG 702(g),\" where the government made certain corrections relating to its prior certification application. The substance of those corrections are redacted in the declassified opinion, but likely related to the targeting procedures of the certifications. Regardless, whatever the content of those corrections were, FISC Judge Mary A. McLaughlin ultimately approved the certification, noting that she had \"no reason to think that\" the new procedures would \"be any less effective in satisfying the requirements of [FISA] and the Fourth Amendment\" than the earlier certification approved by the FISC.</p>",
+      "<p>This is a case about a challenge to Sections 16-82 and 25-267 of the Fort Lauderdale Code of Ordinances, which prohibited panhandling in a variety of public places. On January 25, 2021, two men, one living in a public shelter and one without a permanent home, filed this lawsuit in the United States District Court for the Southern District of Florida. The plaintiffs sued the City of Fort Lauderdale under 42 U.S.C. &sect; 1983. Represented by both the Florida Justice Institute and private counsel, the plaintiffs sought declaratory, injunctive, and monetary relief. They claimed that the City&rsquo;s policies violated their First Amendment rights because the statutes chilled their speech.</p>\r\n<p>According to the complaint, both plaintiffs had limited opportunities for full-time employment due to chronic health conditions and relied on donations from others to afford necessities. The plaintiffs claimed that they peacefully panhandled in public places with signs soliciting donations and that sections 16-82 and 25-267, adopted on May 1, 2012, unconstitutionally infringed on their ability to do so. Section 16-82 defined panhandling as &ldquo;any solicitation made in person requesting an immediate donation of money or other thing of value for oneself or another person or entity,&rdquo; and forbade panhandling in public places such as bus stops and parks. The statute also prohibited &ldquo;aggressive panhandling,&rdquo; which involved continued requests after a negative response or attempts to solicit through physical imposition. Section 25-267 specifically governed &ldquo;right-of-way solicitors and canvassers,&rdquo; to include people seeking donations. These provisions outlawed solicitation on &ldquo;surface and space above and below any real property in which the City has an interest in law or equity.&rdquo; Both sections imposed penalties of a fine not to exceed $500, imprisonment not to exceed 60 days, or both.</p>\r\n<p>The plaintiffs argued that these regulations chilled protected speech, asserting that panhandling is a form of protected speech under the First Amendment and that they had been deterred from exercising their right because of repeated harassment and arrest threats by Fort Lauderdale Police Department officers. More generally, they alleged that the statutes were enforced primarily against people seeking donations in public places and this constituted an impermissible content-based restriction of speech because other similar forms of speech, such as asking for signatures on a petition or encouraging people to join a religious organization, were permitted. Thus, the plaintiffs argued the restriction was subject to strict scrutiny and that the ordinances were not narrowly tailored to a compelling government interest, nor were they the least restrictive means of advancing any government interest. The plaintiffs further asserted that, even if the restrictions were deemed content-neutral, they would still be unconstitutional because they constituted an unreasonable time, place, and manner restriction. In addition to suing for damages for mental and emotional distress as a result of continued harassment, the plaintiffs sought injunctive relief to prohibit enforcement of the statutes.</p>\r\n<p>The City moved to dismiss the case for lack of subject matter jurisdiction, but the motion was denied on April 13, 2021. The court concluded that the plaintiffs had sufficiently pled standing based on their allegations of police harassment, and their observations of the police arresting other people for panhandling.&nbsp;</p>\r\n<p>Later that year, on June 23, Judge Roy K. Altman granted plaintiffs&rsquo; motion for a preliminary injunction. The court determined that the plaintiffs were likely to succeed on their First Amendment claims and that they satisfied the remaining criteria for a preliminary injunction. In particular, the court found that an injunction was in the public interest because the public has &ldquo;no interest&rdquo; in enforcing an unconstitutional law that is not tied to any compelling government interest. 546 F.Supp.3d 1227.</p>\r\n<p>After Judge Altman's ruling, the parties entered mediation. The City ultimately conceded that the panhandling ordinance and several provisions of the right-of-way ordinance were unconstitutional. However, it contended that one provision of the latter ordinance was constitutional: the \"hand-to-hand transmission\" provision, which bars people from \"personally hand[ing] to or seek[ing] to transmit by hand or receive by hand anything or service of any kind\" to people driving on the city's \"arterial\" roadways.</p>\r\n<p>The plaintiffs filed a motion for summary judgment on November 19, 2021, as to the city's liability. They sought a permanent injunction and declaratory relief as to all of the ordinances. Judge Altman granted in part and denied in part this motion for summary judgment on August 18, 2022. The court held that the only disputed issue was whether the hand-to-hand transmission provision was constitutional, so it ruled in the plaintiffs' favor as to the panhandling ordinance and the other provisions of the right-of-way ordinance. It therefore permanently enjoined the city from enforcing these other provisions of the right-of-way ordinance.</p>\r\n<p>The City subsequently repealed the panhandling ordinance, and the court dissolved the preliminary injunction against that ordinance on October 14, 2022.</p>\r\n<p>On the issue of the right-of-way ordinance, a bench trial occurred on October 12, 2022. Over a year later, on January 26, 2024, Judge Altman ruled in favor of the plaintiffs. The court held that the plaintiffs had standing to challenge the hand-to-hand transmission provision based on the likelihood that it would be enforced against them in the future. Further, the court found that the City had presented very little pre-enactment evidence about the claimed traffic safety problems the provision was trying to solve. The court concluded that the provision violated the First Amendment because it was not narrowly tailored to a particular governmental interest: specifically, it placed an excessive burden on speech relative to the public safety or traffic regulation interests at issue. As a result, the district court entered final judgment for the plaintiffs and permanently enjoined the City from enforcing the hand-to-hand transmission provision. Because the court had no reasonable way of measuring plaintiffs&rsquo; damages, they were awarded only nominal damages of $1.00. 2024 WL 301574.</p>\r\n<p>On February 26, 2024, the City appealed the case to the U.S. Court of Appeals for the Eleventh Circuit (24-10598). As of May 2, 2024, the case is ongoing.</p>"
     ]
   },
   "summary_published_date": {
@@ -990,16 +990,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "2022-09-02T23:25:55.923731-04:00",
-      "2007-03-19T00:00:00-04:00",
-      "2024-01-10T18:52:53.883624-05:00",
-      "2026-03-07T19:58:37.997565-05:00",
-      "2025-12-09T09:32:11.804941-05:00",
-      "2025-10-13T13:43:33.040456-04:00",
-      "2025-12-02T20:14:27.248049-05:00",
-      "2012-11-25T00:00:00-05:00",
-      "2025-11-09T20:41:34.026988-05:00",
-      "2012-06-01T00:00:00-04:00"
+      "2023-03-17T17:00:00.262191-04:00",
+      "2026-02-15T17:38:38.283691-05:00",
+      "2025-05-27T22:42:56.187758-04:00",
+      "2021-03-29T00:00:00-04:00",
+      "2006-07-12T00:00:00-04:00",
+      "2014-12-04T00:00:00-05:00",
+      "2024-01-03T10:22:25.764542-05:00",
+      "2025-10-22T23:09:17.148158-04:00",
+      "2023-11-26T10:40:09.724621-05:00",
+      "2007-10-10T00:00:00-04:00"
     ]
   },
   "summary_short": {
@@ -1010,16 +1010,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "On March 2, 2007, a resident alien and two non-profits filed a class action suit in the U.S. District Court for the District of Massachusetts, challenging the mandatory detention provision of Section 236(c) of the Immigration and Nationality Act. The plaintiff also filed a petition for writ of habeas corpus pursuant to 28 U.S.C. \u00a7 2241, requesting his immediate release from detention.  \r\n\r\nOn July 12, 2007 district court held a hearing on the writ of habeas corpus, however, before ruling on the issue the plaintiff was released from custody. The court then dismissed the remainder of the case. \r\n\r\n",
-      "On May 18, 2014, inmates at the Clackamas County Jail sued the county and the sheriff over their strip search policy in the U.S. District Court for the District of Oregon. The plaintiffs brought this claim under 42 U.S.C. \u00a7 1983, alleging violations of the Fourth, Eighth, and Fourteenth Amendments for strip and visual cavity searches conducted on pre-trial detainees and convicted inmates at the CCJ beginning in May 2012. The court granted class certification in 2018, but upon a motion by the defendants to decertify the class, the court decertified the class in 2019. The plaintiffs appealed this decision to the Ninth Circuit, but the court dismissed the appeal for lack of jurisdiction. The defendants filed a motion for summary judgment on all claims in October 2019. In May 2020, the court granted the motion for summary judgment and dismissed the case with prejudice. The plaintiffs have appealed the decision to the Ninth Circuit. The appeal is ongoing.",
-      "On April 15, 2008, American Civil Liberties Union filed a complaint in federal court for the \r\nSouthern District of New York under the Freedom of Information Act seeking immediate processing and release of records plaintiffs requested from defendant Federal Bureau ofInvestigation. Both parties agreed to settle after FOIA request was completed.",
-      "This class action, filed in the U.S. District Court for the Southern District of New York on December 28, 2006, successfully challenged the Social Security Administration's policy of suspending or denying benefits to persons with outstanding warrants for alleged violations of probation or parole. The plaintiff class ultimately won an estimated $1 billion in back-benefits. ",
-      "Jenner & Block, a law firm, sued the Trump administration over an executive order that punished the firm for the cases it handled and the clients it represented. The order cut off government contracts, took away security clearances, limited access to federal buildings and jobs, and ordered an investigation of the firm. Jenner argued this was retaliation and violated the Constitution.\r\n\r\nOn March 28, 2025, a federal judge stopped the order, saying Jenner was likely to win because the government cannot punish a law firm for its speech or legal work. On May 23, 2025, the judge permanently blocked the order, ruling it was unconstitutional and not justified by national security or anti-discrimination reasons.\r\n\r\nThe government appealed the decision to a higher court. Similar lawsuits were filed by other major law firms.",
-      "Four African American female DC firefighters brought suit against DC. Plaintiffs alleged discriminatory pay, disciplinary, and overtime assignment practices at DC Fire and EMS in violation of Title VII.",
-      "In 2012, deaf individual sued the City and County of Denver under the Americans with Disabilities Act (ADA) and Section 504 of the Rehabilitation Act, alleging that the defendants discriminated against the plaintiff by not providing him with the required auxiliary aids and services necessary to ensure effective communication. Defendants made an offer of judgment in the amount of $15,000, which was accepted by the plaintiff.",
-      "This is a putative class action suit brought by and on behalf of children with disabilities who alleged that they did not get their educational needs met by their schools due to online learning during the COVID-19 pandemic. On June 30, 2021, the plaintiffs filed this lawsuit in the U.S. District Court for the Eastern District of Michigan. The plaintiffs sued the Michigan Department of Education, Ann Arbor Public Schools, and Washtenaw Intermediate School District under the Individuals with Disabilities Education Act (\u201cIDEA\u201d), Section 504 of the Rehabilitation Act of 1973, Title II of the Americans with Disabilities Act (\u201cADA\u201d), the Equal Protection Clause of the Fourteenth Amendment, the Racketeer Influenced and Corrupt Organizations (\u201cRICO\u201d) Act of 1970, and state law and regulations.  The court denied plaintiffs\u2019 motion for a temporary restraining order on February 3, 2022.  On July 22, 2022, the district court dismissed the case for lack of subject matter jurisdiction because the plaintiffs lacked standing to pursue injunctive or declaratory relief on all of their remaining claims. Specifically, the plaintiffs alleged only past harm, rather than continuing harm, as to their IDEA, ADA, and Michigan state law claims. The court dismissed their RICO claim because the plaintiffs had failed to establish causation and redressability. On August 17, 2022, the plaintiffs appealed the decision to the U.S. Court of Appeals for the Sixth Circuit. On May 10, 2023, the Sixth Circuit affirmed the dismissal due to mootness and lack of standing. The Sixth Circuit denied rehearing en banc on June 12, 2023 and affirmed its previous holding. The plaintiffs asked the U.S. Supreme Court to hear the case, but the Court declined to do so on February 20, 2024. The case is now closed.",
-      "In January 2021, four teenagers, representing all minors aged 14 to 17 with mental impairments under the legal custody of New Hampshire's Division for Children, Youth and Families (DCYF), filed this putative class-action lawsuit in the United States District Court for the District of New Hampshire. Plaintiffs alleged that DCYF was systematically and unnecessarily institutionalizing older foster youth rather than placing them in homelike settings within or close to their communities, violating their constitutional and statutory rights. In September 2021, the court dismissed the plaintiffs' constitutional claims. On August 21, 2023, the plaintiffs filed a motion for class certification, which was granted on September 18, 2024. A bench trial is scheduled for February 2026.",
-      "In 2008, five arrestees filed this class action lawsuit in the U.S. District Court for the District of New Jersey, against Ocean County Correctional Facility, challenging its blanket strip search policy. The court certified the class in 2009. The court granted Defendant\u2019s motion to dismiss, dismissing Plaintiff\u2019s US Constitution claim and state law claims, as the court declined to exercise supplemental jurisdiction over plaintiffs\u2019 state law claims. The case was closed."
+      "On January 2013, the EEOC filed this lawsuit in the U.S. District Court for the Southern District of Florida against Bay State Milling Company, alleging violations of the Age Discrimination in Employment Act (ADEA) and the Fair Labor Standards Act (FLSA). . The EEOC sought injunctive and monetary relief as well reinstatement of the affected individual. The parties agreed upon a settlement agreement on November 12, 2013. ",
+      "This case, started on November 12, 2019, involved a progressive organization that sued Michigan Attorney General Dana Nessel over two Michigan laws that limited the organization's get-out-the-vote (GOTV) efforts. One of these laws, the Absentee Ballot Organizing Ban, prohibited organizations from requesting to handle voters' absentee ballots. The other, the Voter Transportation Ban, forbade the hiring of motor vehicles to carry voters to polling centers. The plaintiffs claimed that these laws violated their First and Fourteenth Amendment rights. They sought declaratory and injunctive relief, as well as attorney's fees and costs. On September 17, 2020, the court granted in part and denied in part the plaintiffs' request for an injunction. The defendants appealed, and the Sixth Circuit reversed the district court's decision, lifting the injunction. On September 15, 2022, the court issued an order granting the defendants\u2019 motion for a judgment on the pleadings. The court found that the plaintiffs\u2019 conduct related to the Absentee Ballot Organizing Ban lacked First Amendment protections, and even if the protections applied, both the Organizing Ban and the Transportation Ban satisfied the Anderson-Burdick framework for analyzing these challenges. No claims remained following this order, and all pending motions were mooted. As of April 2023, a dispute over attorneys' fees remains ongoing.",
+      "The EEOC's Baltimore Office filed suit against Worthington, Moore, & Jacobs, a collection agency, alleging that the company president sexually harassed a number of female employees, and that the company retaliated against those who complained. After the defendant defaulted, the court found that the defendant violated Section 703(a) of Title VII, 42 U.S.C. \u00a72000 and Section 704(a) of Title VII and ordered that the defendant pay the complainants a combined total of $678,326.",
+      "On May 24, 2022, the U.S. Attorney for the Southern District of Texas and the Civil Rights Division of the U.S. Attorney General's Office filed this lawsuit in the U.S. District Court for the Southern District of Texas. The U.S. sued Galveston County, the Galveston County Commissioners Court (the county's governing body), and the presiding officer of the Galveston County Commissioners Court. It alleged that the voting maps for the County Commissioners Court adopted during the 2021 redistricting process were racially gerrymandered to reduce the voting power of Black and Hispanic voters, in violation of Section 2 of the Voting Rights Act. The U.S. sought declaratory relief and an injunction requiring new election maps. District Judge Jeffrey V. Brown issued an order on June 1, 2022, consolidating two other cases challenging the 2021 redistricting process, Petteway v. Galveston County and Dickinson Bay Area Branch NAACP, et al., v. Galveston County, et al., with this case and designating Petteway as the lead case.",
+      "On September 25, 2025, the U.S. Department of Justice, Civil Rights Division filed United States v. Weber in the U.S. District Court for the Central District of California. This case is one of six lawsuits the Justice Department brought against California, New Hampshire, New York, Michigan, Pennsylvania, and Minnesota. All six cases claim that these states are not keeping their voter registration lists accurate or sharing the information that federal law requires.\r\n\r\nThe Justice Department sued the State of California and Dr. Shirley N. Weber, the California Secretary of State, for refusing to turn over the state\u2019s full Statewide Voter Registration List (SVRL). The Department asked for voter names, addresses, birth dates, driver\u2019s license numbers, and part of their Social Security numbers, along with records showing how the state updates its voter lists. California said its privacy laws prevented full disclosure and offered only limited, in-person review.\r\n\r\nThe federal government argues that this violates three laws: the Civil Rights Act of 1960, the National Voter Registration Act of 1993, and the Help America Vote Act of 2002. It asks the court to order California to release the complete records and to declare that federal law overrides any state law that blocks access.\r\n\r\nOn January 15, 2026, Judge Carter granted plaintiffs' motion to dismiss,  finding that DOJ's demands violated federal privacy laws and weren\u2019t justified under the CRA, NVRA, or HAVA. He emphasized the importance of voting rights, noting DOJ\u2019s motives appeared focused on broader immigration enforcement, not voter eligibility. Judge Carter warned that such demands erode democracy and privacy, stating these matters belong in Congress, not the Executive branch.",
+      "On July 29, 2010, Lambda Legal and the ACLU brought suit in Hawaii state court seeking declaratory and injuctive relief under multiple sections of the Hawaii Constitution to require the state to provide committed same-sex couples in civil unions with all benefits enjoyed by married heterosexual couples. The suit was voluntarily dismissed after the state passed a law that effectively provided the relief sought by Plaintiffs.",
+      "This case concerns allegations of abuse and torture suffered by four Iraqi men who were detained at Abu Ghraib prison in 2003. Represented by private counsel and the Center for Constitutional Rights, Plaintiffs alleged violations of the Alien Tort Statute (\u201cATS\u201d), including claims of torture, cruel, inhuman, or degrading treatment, war crimes, and common law tort claims including: assault and battery, sexual assault and battery, intentional infliction of emotional distress, and negligent hiring and supervision. They also brought civil conspiracy and aiding and abetting counts relating to each of the alleged violations. The case began on June 30, 2008, in the U.S. District Court for the Southern District of Ohio (with the final amended complaint filed on April 4, 2013, in the Eastern District of Virginia). \r\nThe case has an extensive procedural history with numerous interlocutory appeals to the Fourth Circuit, many of which relate to subject matter jurisdiction. Ultimately, the common law claims were dismissed, and a trial was held relating to the torture, cruel, inhuman, or degrading treatment, and war crimes charges under the ATS. In November 2024, the jury returned a verdict in favor of Plaintiffs, awarding $3,000,000 in compensatory damages and $11,000,000 in punitive damages to each plaintiff. In response, Defendants filed a motion for judgment as a matter of law, or in the alternative, for a new trial. The District Court denied these motions on January 10, 2025. Defendants appealed. As of April 2, 2025, the appeal is still ongoing.",
+      "On April 18, 2012, two African American men who had unsuccessfully applied to be cast as The Bachelor in the ABC television program of the same name filed a lawsuit in the U.S. District Court for the Middle District of Tennessee, Nashville Division, under \u00a7 1981 and Cal. Civ. \u00a7\u00a7 51, 51.5 against American Broadcasting Companies. The complaint was filed as a class action, with plaintiffs suing on behalf of the class of all people of color who had unsuccessfully applied to star as either The Bachelor or The Bachelorette. The plaintiffs, represented by private counsel, asked the court for declaratory, injunctive and monetary relief, alleging that they were the victims of ABC's racial discrimination. Specifically, the plaintiffs claimed that ABC has knowingly, intentionally, and as a matter of corporate policy refused to cast people of color in the role of the Bachelor and Bachelorette for all 23 seasons of the two programs.\r\n\r\nThe case in ongoing.",
+      "On March 22, 2022, the Ypsilanti Township Citizens For Responsible Government , in its capacity as local ballot question committee, filed a Complaint (later amended to add Count II) in the United States District Court for the Eastern District of Michigan against the Secretary of State of Michigan, the Charter Township of Ypsilanti, and the Ypsilanti Township Clerk. Plaintiff challenged the constitutionality of a state law which requires a petition for referendum of a zoning ordinance contain the signatures of 15% of the electorate residing in the jurisdiction who voted in the last gubernatorial election, within 30 days of publication of the zoning ordinance, alleging it violates the First and Fourteenth Amendments of the US Constitution and violates ones Substantive Due Process Rights to political speech and ballot access. Plaintiff sought a preliminary injunction to prohibit enforcement of the signature requirement, which was denied.\r\n\r\nJudge Cox entered a stipulated order dismissing the case with prejudice, without costs or fees to any party.",
+      "New York election law allows mail-in ballots received in the week after an election to be counted if they are postmarked by election day. In May 2020, Governor Andrew Cuomo sought to expand the availability of mail-in voting due to the COVID-19 pandemic by paying the postage of mail-in ballots on receipt. This caused a \u201csnafu\u201d because the USPS normally does not postmark such postage-paid mail. Since boards of election would not count unpostmarked mail, voters who mailed ballots on election day would not have had their votes counted. Voters and candidates for office in New York accordingly sued the New York State and City boards of elections, their commissioners, and the Governor, alleging that the \u201csnafu\u201d violated their federal and state constitutional rights to vote on July 17, 2020. The U.S. District Court for the Southern District of New York agreed as to the June 23 primary election. It ordered the boards of election to count any ballots for the primary received by June 25, regardless of whether the ballots were postmarked. The plaintiffs in September requested the same relief for the November 3, 2020 general election, plus additional measures designed to facilitate the counting of unpostmarked mail-in ballots. The court denied that relief \u2014 unlike in the primary election litigation, no votes had yet gone uncounted because the election had not taken place. And the boards of elections had implemented new means of voting absentee that made it much less likely, in the court\u2019s view, that the \u201csnafu\u201d would meaningfully recur. A year later, the parties settled their remaining claims, and the case is now closed."
     ]
   },
   "summary_tiny": {
@@ -1030,16 +1030,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "New to the Clearinghouse:  A putative class action lawsuit challenges as racially discriminatory a July 2020 prison raid and related security threat group classifications at the Correctional Training Center.",
-      "Yet another case suing @ICEgov and @DHSgov following the July 6 directive that would all force international students to take in-person classes or face deportation. This time it's 7 private plaintiffs repped by @PublicCounsel and @SidleyLaw",
-      "Department of Justice appeals lawsuit by asylum seekers seeks to stop ICE from enforcing stricter credible fear criteria to the D.C. Circuit Court.",
-      "Ninth Circuit strikes down staff vaccine mandate for California prison officials in one of the country's longest-lasting prison litigation cases.",
-      "New in the Clearinghouse: @Uber reached a multi-million dollar settlement with the DOJ @CivilRights, requiring the company to compensate over 65,000 users who were charged wait-time fees as a result of their disability. Check out the documents.",
-      "In 2018, kids in the Kansas foster care system filed suit against the Governor and multiple state Departments. A settlement was reached in July 2020, which requires the state to take systemic action to end practices harming kids' health.",
-      "Michigan resident alleged he was repeatedly subjected to additional screenings at airports, but the Sixth Circuit ruled that his constitutional right to travel was not impinged.",
-      "U.S. district court suspended in-person signature requirement for candidates in Rhode Island for the 2020 election due to COVID-19.",
-      "Discovery continues in T.S. v. 20th Century Fox Television, a class action lawsuit brought by 2 children previously detained in the Cook Cty Juvenile Temporary Detention Center. They allege that they were harmed by a lockdown during a TV shoot there ",
-      "Check out this 2011 @ACLU @PPFA @ReproRights @ case challenging NC's  \u201cWoman\u2019s Right to Know Act.\u201d The Plaintiffs prevailed and the Court reasoned that the \u201cone-size-fits-all speech-and-display provision\u201d violated Plaintiffs\u2019 First Amendment rights."
+      "Court orders release of vulnerable individuals detained by Immigration and Customs Enforcement",
+      "Now collecting information on a class-action suit filed against the City of Portland challenging the City's use of tear gas on protestors.",
+      "New in the Clearinghouse: On January 5, 2023, the South Carolina Supreme Court sided with @PPSouthAtlantic and held that the state's six-week abortion ban was unconstitutional and violated a woman's right to privacy. Check out the documents.",
+      "New in the Clearinghouse: A settlement between @CourthouseNews and @BrowardCounty overturned Florida's \"no-access-before-process\" policy that delayed public access to new non-confidential circuit court civil complaints. Check out the documents.",
+      "Detainees at Montana State Prison with mental illness filed suit alleging violations of the Eight Amendment's cruel and unusual punishment clause. (D. Mont.)",
+      "In 2019, Utah's 18-week #abortion ban was challenged by @ppacutah and @acluutah. But following the Supreme Court's ruling in Dobbs v. Jackson Women's Health, the case was dismissed.",
+      "Pretrial detainees incarcerated in Santa Rita Jail sues Alameda County and its sheriff for denial of basic human rights, cruel and unusual punishment, among others, due to the jail\u2019s practice of interrupting the their sleep (N.D. Cal.)",
+      "#ThisDayInTheClearinghouse (2013) District Judge Jonker (W.D.MI) denied plaintiff\u2019s motion for a preliminary injunction in Autocam Corp. v. Sibelius, a case arguing that the ACA\u2019s mandatory coverage of contraception violated RFRA, the APA, & the 1st Amend. ",
+      "Now Posting: Updates in @AAAJ_AAJC class action case of Vietnamese refugees held in ICE custody for extended periods (C.D. Cal.)",
+      "On August 5, 2021, the DOJ announced it was opening a pattern and practice investigation into the Phoenix Police Department under the Violent Crime Control and Law Enforcement Act of 1994."
     ]
   },
   "terminating_date": {
@@ -1050,16 +1050,16 @@
     "avg_labels_per_sample": null,
     "max_labels_per_sample": null,
     "sample_values": [
-      "2003-02-14",
-      "2018-10-25",
-      "1979-05-14",
-      "2019-06-12",
-      "2020-09-30",
-      "2009-03-17",
-      "2025-10-23",
-      "2020-02-05",
-      "2021-11-19",
-      "2008-04-16"
+      "2004-07-29",
+      "2022-01-18",
+      "1998-08-01",
+      "2001-05-30",
+      "2025-01-13",
+      "2021-12-17",
+      "2025-10-29",
+      "2000-09-06",
+      "2023-03-06",
+      "2005-02-16"
     ]
   }
 }
